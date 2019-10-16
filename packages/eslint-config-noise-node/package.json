@@ -1,0 +1,13 @@
+{
+  "name": "eslint-config-noise-node",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": "^8"
+  },
+  "dependencies": {
+    "eslint-config-noise-base": "*",
+    "eslint-plugin-node": "^10.0.0"
+  }
+}
