@@ -1,0 +1,8 @@
+{
+  "name": "eslint-noise-cli",
+  "version": "0.0.1",
+  "license": "MIT",
+  "bin": {
+    "eslint-noise": "index.js"
+  }
+}
