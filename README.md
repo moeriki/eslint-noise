@@ -1,5 +1,8 @@
 # ESLint Config Noise
 
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+
 An opinionated [ESLint](https://github.com/eslint/eslint) config based on the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript). Includes known ESLint plugins [import](https://github.com/xjamundx/eslint-plugin-promise) and [promise](https://github.com/xjamundx/eslint-plugin-promise). Styling is taken care off by [Prettier](https://prettier.io/).
 
 Can be used for **Node.js** development.
@@ -65,5 +68,5 @@ module.exports = {
 
 ## Planned features
 
-* TypeScript support
-* Browser / React variant
+- TypeScript support
+- Browser / React variant
