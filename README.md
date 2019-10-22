@@ -57,7 +57,7 @@ _.eslintrc.js_
 module.exports = {
   extends: ['eslint-config-noise-node'],
   overrides: [
-    { files: 'scripts/**', extends: ['eslint-config-noise-node/script'] }
+    { files: 'scripts/**', extends: ['eslint-config-noise-node/script'] },
   ],
   root: true,
 };

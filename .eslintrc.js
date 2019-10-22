@@ -3,10 +3,5 @@ module.exports = {
   env: { es6: true, node: true },
   parserOptions: { ecmaVersion: 2020 },
   root: true,
-  rules: {
-    'prettier/prettier': [
-      'error',
-      { arrowParens: 'always', singleQuote: true, trailingComma: 'all' },
-    ],
-  },
+  rules: { 'prettier/prettier': 'error' },
 };
