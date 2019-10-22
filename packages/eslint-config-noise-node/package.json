@@ -32,6 +32,13 @@
     "eslint-config-noise-base": "^0.0.3"
   },
   "peerDependencies": {
-    "eslint-plugin-node": "^10.0.0"
+    "eslint": ">=6.4",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-unicorn": "^12.1.0",
+    "prettier": "^1.18.2"
   }
 }
