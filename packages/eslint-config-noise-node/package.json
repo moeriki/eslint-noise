@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-noise-node",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": {
     "email": "dieterluypaert@gmail.com",
     "name": "Dieter Luypaert"
@@ -25,7 +25,7 @@
     "url": "https://github.com/Moeriki/eslint-noise"
   },
   "dependencies": {
-    "eslint-config-noise-base": "^0.0.0",
+    "eslint-config-noise-base": "^0.0.1",
     "eslint-plugin-node": "^10.0.0"
   }
 }
