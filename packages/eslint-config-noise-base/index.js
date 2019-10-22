@@ -1,13 +1,15 @@
 module.exports = {
   extends: [
-    './rules/best-practices',
-    './rules/errors',
-    './rules/es6',
-    './rules/node',
-    './rules/plugin-import',
-    './rules/plugin-promise',
-    './rules/plugin-unicorn',
-    './rules/variables',
+    ...[
+      './rules/best-practices',
+      './rules/errors',
+      './rules/es6',
+      './rules/node',
+      './rules/plugin-import',
+      './rules/plugin-promise',
+      './rules/plugin-unicorn',
+      './rules/variables',
+    ].map(require.resolve),
     'plugin:prettier/recommended',
   ],
   env: { es6: true, node: true },
