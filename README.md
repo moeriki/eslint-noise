@@ -9,7 +9,7 @@ Can be used for **Node.js** development.
 
 ## Why
 
-I used to extend the [Airbnb base config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base), but found myself disabling the same rules, adding the same plugins, over and over again.
+I used to use the [Airbnb base config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base), but found myself disabling the same rules, adding the same plugins, over and over again.
 
 ## Plugins
 
