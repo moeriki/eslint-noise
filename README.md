@@ -1,9 +1,9 @@
 # ESLint Config Noise
 
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-An opinionated [ESLint](https://github.com/eslint/eslint) config based on the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript). Includes known ESLint plugins [import](https://github.com/xjamundx/eslint-plugin-promise) and [promise](https://github.com/xjamundx/eslint-plugin-promise). Styling is taken care off by [Prettier](https://prettier.io/).
+An opinionated [ESLint](https://github.com/eslint/eslint) config based on the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript).
 
 Can be used for **Node.js** development.
 
@@ -11,62 +11,20 @@ Can be used for **Node.js** development.
 
 I used to extend the [Airbnb base config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base), but found myself disabling the same rules, adding the same plugins, over and over again.
 
-## Setup
+## Plugins
 
-### Node
+All packages include these plugins.
 
-Includes the ESLint [node](https://github.com/mysticatea/eslint-plugin-node) plugin.
+- [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
+- [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)
+- [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)
+- [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
 
-#### Install
+## Packages
 
-```sh
-npm install --save-dev eslint eslint-config-noise-node
-```
-
-#### Usage
-
-There are many ways to [configure ESLint in the official documentation](https://eslint.org/docs/user-guide/configuring).
-
-##### .eslintrc.js
-
-```js
-module.exports = { extends: ['eslint-config-noise-node'], root: true };
-```
-
-#### Variants
-
-Some rules could be unnecessary in certain scenarios. These variants need to be applied on top of the base config.
-
-##### Node.js v8
-
-Some rules make no sense when using Node.js v8. Apply this variant to fix this.
-
-_.eslintrc.js_
-
-```js
-module.exports = {
-  extends: ['eslint-config-noise-node', 'eslint-config-noise-node/8'],
-  root: true,
-};
-```
-
-##### Script
-
-Some rules may be annoying when writing scripts, eg. in your `scripts/` directory. You can improve this experience by extending a the _scripts_ preset.
-
-_.eslintrc.js_
-
-```js
-module.exports = {
-  extends: ['eslint-config-noise-node'],
-  overrides: [
-    { files: 'scripts/**', extends: ['eslint-config-noise-node/script'] },
-  ],
-  root: true,
-};
-```
+- [eslint-config-noise-node](./packages/eslint-config-noise-node/README.md)
 
 ## Planned features
 
 - TypeScript support
-- Browser / React variant
+- Browser / React packages
