@@ -29,7 +29,9 @@
     "url": "https://github.com/Moeriki/eslint-noise"
   },
   "dependencies": {
-    "eslint-config-noise-base": "^0.0.2",
+    "eslint-config-noise-base": "^0.0.2"
+  },
+  "peerDependencies": {
     "eslint-plugin-node": "^10.0.0"
   }
 }
