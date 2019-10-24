@@ -5,7 +5,7 @@
     "email": "dieterluypaert@gmail.com",
     "name": "Dieter Luypaert"
   },
-  "description": "A very Noise ESLint config indeed",
+  "description": "A very Noise ESLint node config indeed",
   "keywords": [
     "eslint",
     "eslintconfig",
@@ -14,6 +14,7 @@
     "eslint-plugin",
     "linter",
     "lint",
+    "node",
     "style"
   ],
   "license": "MIT",
