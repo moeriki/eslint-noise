@@ -17,15 +17,15 @@
     "style"
   ],
   "license": "MIT",
+  "repository": {
+    "url": "https://github.com/Moeriki/eslint-noise"
+  },
   "main": "index.js",
   "files": [
     "*.js"
   ],
   "engines": {
     "node": "^8"
-  },
-  "repository": {
-    "url": "https://github.com/Moeriki/eslint-noise"
   },
   "dependencies": {
     "eslint-config-noise-base": "^0.0.4"
