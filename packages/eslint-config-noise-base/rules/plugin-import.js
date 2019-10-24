@@ -161,7 +161,9 @@ module.exports = {
     'import/no-unused-modules': 'off',
   },
   settings: {
-    'import/resolver': { node: { extensions: ['.mjs', '.js', '.json'] } },
+    'import/resolver': {
+      node: { extensions: ['.mjs', '.js', '.json'] },
+    },
     'import/extensions': ['.js', '.mjs', '.jsx'],
     'import/core-modules': [],
     'import/ignore': [
