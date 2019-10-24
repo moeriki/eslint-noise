@@ -19,8 +19,7 @@
   "license": "MIT",
   "main": "index.js",
   "files": [
-    "*.js",
-    "rules/*"
+    "*.js"
   ],
   "engines": {
     "node": "^8"
