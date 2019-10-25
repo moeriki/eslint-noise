@@ -15,7 +15,7 @@
     "rules/*"
   ],
   "engines": {
-    "node": ">=8"
+    "node": ">=8.3"
   },
   "dependencies": {
     "confusing-browser-globals": "^1.0.9"
