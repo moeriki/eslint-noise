@@ -26,7 +26,7 @@
     "*.js"
   ],
   "engines": {
-    "node": "^8"
+    "node": ">=8"
   },
   "dependencies": {
     "eslint-config-noise-base": "^0.0.4"
