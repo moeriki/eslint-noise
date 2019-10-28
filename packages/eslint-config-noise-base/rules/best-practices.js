@@ -10,7 +10,7 @@ module.exports = {
 
     // Require return statements to either always or never specify values
     // https://eslint.org/docs/rules/consistent-return
-    'consistent-return': ['error', { treatUndefinedAsUnspecified: true }],
+    'consistent-return': ['error', { treatUndefinedAsUnspecified: false }],
 
     // Require default case in switch statements
     'default-case': ['error', { commentPattern: '^no default$' }],
