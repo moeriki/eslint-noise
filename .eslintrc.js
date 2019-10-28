@@ -17,5 +17,6 @@ module.exports = {
       rules['import/no-internal-modules'],
       { allow: ['eslint-config-noise-*/**'] },
     ),
+    'no-magic-numbers': 'off',
   },
 };
