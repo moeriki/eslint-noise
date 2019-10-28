@@ -9,7 +9,8 @@
     "packages/*"
   ],
   "scripts": {
-    "lint": "eslint --cache --fix packages/"
+    "lint": "eslint --cache --fix packages/",
+    "test": "jest"
   },
   "devDependencies": {
     "eslint": "^6.5.1",
@@ -20,6 +21,7 @@
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-unicorn": "^12.1.0",
+    "jest": "^24.9.0",
     "lerna": "^3.18.3",
     "prettier": "^1.18.2"
   },

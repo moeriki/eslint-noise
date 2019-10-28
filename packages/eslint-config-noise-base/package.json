@@ -18,7 +18,8 @@
     "node": ">=8.3"
   },
   "dependencies": {
-    "confusing-browser-globals": "^1.0.9"
+    "confusing-browser-globals": "^1.0.9",
+    "lodash": "^4.17.15"
   },
   "peerDependencies": {
     "eslint": "^6.4.0",
