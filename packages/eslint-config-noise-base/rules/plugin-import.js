@@ -124,7 +124,7 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-internal-modules.md
     'import/no-internal-modules': [
       'error',
-      { allow: ['*/cjs', '*/esm?', '*/fp'] },
+      { allow: ['*/cjs', '*/esm?', '*/fp', '*/register'] },
     ],
 
     // Forbid Webpack loader syntax in imports
