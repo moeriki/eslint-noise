@@ -97,7 +97,6 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-type-error.md
     'unicorn/prefer-type-error': 'error',
 
-    // …
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prevent-abbreviations.md
     'unicorn/prevent-abbreviations': 'error',
 
