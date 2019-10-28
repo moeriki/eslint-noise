@@ -22,10 +22,6 @@ module.exports = {
     // Disallow use of undefined when initializing variables
     'no-undef-init': 'error',
 
-    // Disallow use of a variable named `undefined`
-    // https://eslint.org/docs/rules/no-undefined
-    'no-undefined': 'error',
-
     // Disallow declaration of variables that are not used in the code
     'no-unused-vars': [
       'error',
