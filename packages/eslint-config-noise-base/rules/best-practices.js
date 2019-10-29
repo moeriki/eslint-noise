@@ -99,7 +99,7 @@ module.exports = {
       {
         detectObjects: false,
         enforceConst: true,
-        ignore: [0, 1],
+        ignore: [-1, 0, 1],
         ignoreArrayIndexes: true,
       },
     ],
