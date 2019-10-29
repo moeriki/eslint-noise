@@ -8,6 +8,7 @@ module.exports = {
       './rules/plugin-import',
       './rules/plugin-promise',
       './rules/plugin-unicorn',
+      './rules/style',
       './rules/variables',
     ].map(require.resolve),
     'plugin:prettier/recommended',

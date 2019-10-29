@@ -5,6 +5,7 @@ const node = require('./node');
 const pluginImport = require('./plugin-import');
 const pluginPromise = require('./plugin-promise');
 const pluginUnicorn = require('./plugin-unicorn');
+const style = require('./style');
 const variables = require('./variables');
 
 module.exports = {
@@ -15,5 +16,6 @@ module.exports = {
   pluginImport,
   pluginPromise,
   pluginUnicorn,
+  style,
   variables,
 };
