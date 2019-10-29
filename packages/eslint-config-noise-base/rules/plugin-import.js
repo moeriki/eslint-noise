@@ -140,11 +140,25 @@ module.exports = {
     'import/no-webpack-loader-syntax': 'error',
 
     // Ensure absolute imports are above relative imports and that unassigned imports are ignored
+    // builtin: 'fs', 'path'
+    // external: 'chalk', 'lodash'
+    // internal: 'src/foo'
+    // parent: '../foo', '../foo/other'
+    // sibling: './bar', './bar/baz'
+    // index: './'
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
-    // TODO: enforce a stricter convention in module import order?
+    // TODO [2020-01-01] (Node.js v8 leaves maintainace) Replace with https://github.com/lydell/eslint-plugin-simple-import-sort
     'import/order': [
       'error',
-      { groups: [['builtin', 'external', 'internal']] },
+      {
+        groups: [
+          'builtin',
+          'external',
+          'internal',
+          ['parent', 'index', 'sibling'],
+        ],
+        'newlines-between': 'always',
+      },
     ],
   },
   settings: {
