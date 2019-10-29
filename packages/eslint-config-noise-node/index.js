@@ -11,13 +11,26 @@ module.exports = {
     // Disallow use of synchronous methods (off by default)
     'no-sync': 'error',
 
+    // Prefer 'module.exports'
     'node/exports-style': ['error', 'module.exports'],
+
+    // Node has many deprecated APIs
+    'node/no-deprecated-api': 'error',
 
     // Disable these recommended rules because we use 'eslint-plugin-import'
     'node/no-extraneous-import': 'off',
     'node/no-extraneous-require': 'off',
     'node/no-missing-import': 'off',
     'node/no-missing-require': 'off',
+
+    // Disallow unsupported ECMAScript built-ins on the specified version
+    'node/no-unsupported-features/es-builtins': 'error',
+
+    // Disallow unsupported ECMAScript syntax on the specified version
+    'node/no-unsupported-features/es-syntax': 'error',
+
+    // Disallow unsupported Node.js built-in APIs on the specified version
+    'node/no-unsupported-features/node-builtins': 'error',
 
     // Don't allow these globals to be imported
     'node/prefer-global/buffer': ['error', 'always'],
@@ -48,9 +61,3 @@ module.exports = {
     'unicorn/no-process-exit': 'error',
   },
 };
-
-// TODO
-// 'node/no-deprecated-api': 'error',
-// 'node/no-unsupported-features/es-builtins': 'error',
-// 'node/no-unsupported-features/es-syntax': 'error',
-// 'node/no-unsupported-features/node-builtins': 'error',
