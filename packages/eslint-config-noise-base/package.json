@@ -12,6 +12,7 @@
   "main": "index.js",
   "files": [
     "index.js",
+    "utils.js",
     "rules/*"
   ],
   "engines": {
