@@ -23,7 +23,10 @@ module.exports = {
 
     // Add expiration conditions to TODO comments
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/expiring-todo-comments.md
-    'unicorn/expiring-todo-comments': 'error',
+    'unicorn/expiring-todo-comments': [
+      'error',
+      { allowWarningComments: false },
+    ],
 
     // Enforce explicitly comparing the length property of a value
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/explicit-length-check.md
