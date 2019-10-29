@@ -1,5 +1,5 @@
 const { extendRule } = require('./packages/eslint-config-noise-base/utils');
-const pluginImport = require('./packages/eslint-config-noise-base/rules/plugin-import');
+const { pluginImport } = require('./packages/eslint-config-noise-base/rules');
 
 module.exports = {
   extends: ['noise-node'],
