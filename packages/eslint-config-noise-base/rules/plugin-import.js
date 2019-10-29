@@ -131,10 +131,6 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
     'import/no-unresolved': ['error', { caseSensitive: true, commonjs: true }],
 
-    // Reports modules without any exports, or with unused exports
-    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unused-modules.md
-    'import/no-unused-modules': 'off',
-
     // Ensures that there are no useless path segments
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-useless-path-segments.md
     'import/no-useless-path-segments': ['error', { commonjs: true }],
