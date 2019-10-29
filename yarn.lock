@@ -2405,6 +2405,20 @@ eslint-ast-utils@^1.1.0:
     lodash.get "^4.4.2"
     lodash.zip "^4.2.0"
 
+eslint-config-noise-base@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/eslint-config-noise-base/-/eslint-config-noise-base-0.0.5.tgz#4beb85a430f56ac3723dc304a608686765fd051d"
+  integrity sha512-awf7ynX9dVjGBCwmZTKisL//oqBz3ItLGRKJhPS+SBG0m5fq1nKSDZlFowzvCVWzNIKEozPVfhV7RF1ujLMe4Q==
+  dependencies:
+    confusing-browser-globals "^1.0.9"
+
+eslint-config-noise-node@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/eslint-config-noise-node/-/eslint-config-noise-node-0.0.5.tgz#119d8e7b7ea8d0b95e084087b4fa098955a4df8e"
+  integrity sha512-7P+ohDfvF7sJDvNzQ4bnBnLfHuZI/TKf6MPa+5IoakBxjqJ4w8R3o52umG5QQvQLnTnL15JpwQhnk7F9jqTsKg==
+  dependencies:
+    eslint-config-noise-base "^0.0.5"
+
 eslint-config-prettier@^6.4.0:
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-6.4.0.tgz#0a04f147e31d33c6c161b2dd0971418ac52d0477"
