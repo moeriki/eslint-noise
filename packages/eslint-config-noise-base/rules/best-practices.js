@@ -255,8 +255,7 @@ module.exports = {
 
     // Suggest using named capture group in regular expression
     // https://eslint.org/docs/rules/prefer-named-capture-group
-    // TODO: this cannot be polyfilled, so it can only be enabled once all evergreen browsers support this
-    'prefer-named-capture-group': 'off',
+    'prefer-named-capture-group': 'error',
 
     // Require using Error objects as Promise rejection reasons
     // https://eslint.org/docs/rules/prefer-promise-reject-errors
