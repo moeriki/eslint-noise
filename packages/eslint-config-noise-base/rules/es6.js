@@ -77,8 +77,7 @@ module.exports = {
 
     // Suggest using Reflect methods where applicable
     // https://eslint.org/docs/rules/prefer-reflect
-    // TODO enable when widely supported
-    'prefer-reflect': 'off',
+    'prefer-reflect': 'error',
 
     // Use rest parameters instead of arguments
     // https://eslint.org/docs/rules/prefer-rest-params
