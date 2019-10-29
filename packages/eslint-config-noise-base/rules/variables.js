@@ -25,11 +25,11 @@ module.exports = {
     // Disallow declaration of variables that are not used in the code
     'no-unused-vars': [
       'error',
-      { vars: 'all', args: 'after-used', ignoreRestSiblings: true },
+      { args: 'after-used', ignoreRestSiblings: true, vars: 'all' },
     ],
 
     // Disallow use of variables before they are defined
     // https://eslint.org/docs/rules/no-use-before-define
-    'no-use-before-define': ['error', { functions: false, classes: false }],
+    'no-use-before-define': ['error', { classes: false, functions: false }],
   },
 };

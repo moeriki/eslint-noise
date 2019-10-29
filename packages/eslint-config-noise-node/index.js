@@ -5,8 +5,13 @@ module.exports = {
     // https://eslint.org/docs/rules/no-path-concat
     'no-path-concat': 'error',
 
+    // This is enabled by plugin-node. We will use a unicorn rule for this
+    'no-process-exit': 'off',
+
     // Disallow use of synchronous methods (off by default)
     'no-sync': 'error',
+
+    'node/exports-style': ['error', 'module.exports'],
 
     // Disable these recommended rules because we use 'eslint-plugin-import'
     'node/no-extraneous-import': 'off',
@@ -14,27 +19,25 @@ module.exports = {
     'node/no-missing-import': 'off',
     'node/no-missing-require': 'off',
 
-    // I don't understand the purpose
-    'node/process-exit-as-throw': 'off',
-
-    'node/exports-style': ['error', 'module.exports'],
-
-    // Do not use a for loop that can be replaced with a for-of loop
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-for-loop.md
-    'unicorn/no-for-loop': 'error',
-
     // Don't allow these globals to be imported
     'node/prefer-global/buffer': ['error', 'always'],
     'node/prefer-global/console': ['error', 'always'],
     'node/prefer-global/process': ['error', 'always'],
     'node/prefer-global/text-decoder': ['error', 'always'],
     'node/prefer-global/text-encoder': ['error', 'always'],
-    'node/prefer-global/url-search-params': ['error', 'always'],
     'node/prefer-global/url': ['error', 'always'],
+    'node/prefer-global/url-search-params': ['error', 'always'],
 
     // Force the usage of the Promise API of 'dns' and 'fs' modules
     'node/prefer-promises/dns': 'error',
     'node/prefer-promises/fs': 'error',
+
+    // I don't understand the purpose
+    'node/process-exit-as-throw': 'off',
+
+    // Do not use a for loop that can be replaced with a for-of loop
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-for-loop.md
+    'unicorn/no-for-loop': 'error',
 
     // Enforce the use of Buffer.from() and Buffer.alloc() instead of the deprecated new Buffer()
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-new-buffer.md
@@ -42,7 +45,6 @@ module.exports = {
 
     // Disallow process.exit()
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-process-exit.md
-    'no-process-exit': 'off', // This is enabled by plugin-node
     'unicorn/no-process-exit': 'error',
   },
 };

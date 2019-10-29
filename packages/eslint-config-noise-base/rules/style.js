@@ -19,6 +19,10 @@ module.exports = {
     // https://eslint.org/docs/rules/func-names
     'func-names': 'error',
 
+    // Require or disallow newlines around directives
+    // https://eslint.org/docs/rules/lines-around-directive
+    'lines-around-directive': ['error', { after: 'always', before: 'always' }],
+
     // Require or disallow an empty line between class members
     // https://eslint.org/docs/rules/lines-between-class-members
     'lines-between-class-members': [
@@ -27,22 +31,18 @@ module.exports = {
       { exceptAfterSingleLine: false },
     ],
 
-    // Require or disallow newlines around directives
-    // https://eslint.org/docs/rules/lines-around-directive
-    'lines-around-directive': ['error', { after: 'always', before: 'always' }],
-
     // Require a capital letter for constructors
     'new-cap': [
       'error',
       {
-        newIsCap: true,
-        newIsCapExceptions: [],
         capIsNew: false,
         capIsNewExceptions: [
           'Immutable.Map',
           'Immutable.Set',
           'Immutable.List',
         ],
+        newIsCap: true,
+        newIsCapExceptions: [],
       },
     ],
 
@@ -82,8 +82,8 @@ module.exports = {
       'error',
       {
         allow: ['_id'],
-        allowAfterThis: false,
         allowAfterSuper: false,
+        allowAfterThis: false,
         enforceInMethodNames: true,
       },
     ],
@@ -113,12 +113,12 @@ module.exports = {
       'error',
       'always',
       {
-        line: { exceptions: ['-', '+'], markers: ['=', '!'] },
         block: {
           balanced: true,
           exceptions: ['-', '+'],
           markers: ['=', '!', ':', '::'],
         },
+        line: { exceptions: ['-', '+'], markers: ['=', '!'] },
       },
     ],
   },

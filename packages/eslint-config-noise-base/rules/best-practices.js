@@ -129,7 +129,6 @@ module.exports = {
     'no-param-reassign': [
       'error',
       {
-        props: true,
         ignorePropertyModificationsFor: [
           'acc', // for reduce accumulators
           'accumulator', // for reduce accumulators
@@ -144,6 +143,7 @@ module.exports = {
           '$scope', // for Angular 1 scopes
           'staticContext', // for ReactRouter context
         ],
+        props: true,
       },
     ],
 
@@ -158,47 +158,47 @@ module.exports = {
     'no-restricted-properties': [
       'error',
       {
+        message: 'arguments.callee is deprecated',
         object: 'arguments',
         property: 'callee',
-        message: 'arguments.callee is deprecated',
       },
       {
+        message: 'Please use Number.isFinite instead',
         object: 'global',
         property: 'isFinite',
-        message: 'Please use Number.isFinite instead',
       },
       {
+        message: 'Please use Number.isFinite instead',
         object: 'self',
         property: 'isFinite',
-        message: 'Please use Number.isFinite instead',
       },
       {
+        message: 'Please use Number.isFinite instead',
         object: 'window',
         property: 'isFinite',
-        message: 'Please use Number.isFinite instead',
       },
       {
+        message: 'Please use Number.isNaN instead',
         object: 'global',
         property: 'isNaN',
-        message: 'Please use Number.isNaN instead',
       },
       {
+        message: 'Please use Number.isNaN instead',
         object: 'self',
         property: 'isNaN',
-        message: 'Please use Number.isNaN instead',
       },
       {
+        message: 'Please use Number.isNaN instead',
         object: 'window',
         property: 'isNaN',
-        message: 'Please use Number.isNaN instead',
       },
       {
+        message: 'Please use Object.defineProperty instead.',
         property: '__defineGetter__',
-        message: 'Please use Object.defineProperty instead.',
       },
       {
-        property: '__defineSetter__',
         message: 'Please use Object.defineProperty instead.',
+        property: '__defineSetter__',
       },
     ],
 
@@ -253,14 +253,14 @@ module.exports = {
     // Disallow use of the with statement
     'no-with': 'error',
 
-    // Require using Error objects as Promise rejection reasons
-    // https://eslint.org/docs/rules/prefer-promise-reject-errors
-    'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
-
     // Suggest using named capture group in regular expression
     // https://eslint.org/docs/rules/prefer-named-capture-group
     // TODO: this cannot be polyfilled, so it can only be enabled once all evergreen browsers support this
     'prefer-named-capture-group': 'off',
+
+    // Require using Error objects as Promise rejection reasons
+    // https://eslint.org/docs/rules/prefer-promise-reject-errors
+    'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
 
     // Disallow use of the RegExp constructor in favor of regular expression literals
     // https://eslint.org/docs/rules/prefer-regex-literals

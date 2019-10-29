@@ -1,4 +1,5 @@
 module.exports = {
+  env: { es6: true, node: true },
   extends: [
     ...[
       './rules/best-practices',
@@ -13,13 +14,12 @@ module.exports = {
     ].map(require.resolve),
     'plugin:prettier/recommended',
   ],
-  env: { es6: true, node: true },
   parserOptions: { ecmaVersion: 2020, sourceType: 'module' },
   rules: {
-    strict: ['error', 'never'],
     'prettier/prettier': [
       'error',
       { arrowParens: 'always', singleQuote: true, trailingComma: 'all' },
     ],
+    strict: ['error', 'never'],
   },
 };
