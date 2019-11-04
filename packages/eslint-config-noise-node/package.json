@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-noise-node",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "author": {
     "email": "dieterluypaert@gmail.com",
     "name": "Dieter Luypaert"
@@ -29,7 +29,7 @@
     "node": ">=8.3"
   },
   "dependencies": {
-    "eslint-config-noise-base": "^0.0.7"
+    "eslint-config-noise-base": "^0.0.8"
   },
   "peerDependencies": {
     "eslint": "^6.4.0",
