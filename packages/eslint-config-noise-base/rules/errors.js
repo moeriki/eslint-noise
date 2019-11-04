@@ -114,7 +114,28 @@ module.exports = {
 
     // Ensure JSDoc comments are valid
     // https://eslint.org/docs/rules/valid-jsdoc
-    'valid-jsdoc': ['error'],
+    'valid-jsdoc': [
+      'error',
+      {
+        prefer: {
+          arg: 'param',
+          argument: 'param',
+          class: 'constructor',
+          return: 'return',
+          virtual: 'abstract',
+        },
+        preferType: {
+          Boolean: 'boolean',
+          Number: 'number',
+          Object: 'object',
+          String: 'string',
+          Symbol: 'symbol',
+        },
+        requireParamDescription: false,
+        requireReturn: false,
+        requireReturnDescription: false,
+      },
+    ],
 
     // Ensure that the results of typeof are compared against a valid string
     // https://eslint.org/docs/rules/valid-typeof
