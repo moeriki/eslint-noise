@@ -20,6 +20,6 @@ module.exports = {
       'error',
       { arrowParens: 'always', singleQuote: true, trailingComma: 'all' },
     ],
-    strict: ['error', 'never'],
+    strict: ['error', 'global'],
   },
 };
