@@ -83,10 +83,6 @@ module.exports = {
     // https://eslint.org/docs/rules/prefer-rest-params
     'prefer-rest-params': 'error',
 
-    // Suggest using the spread operator instead of .apply()
-    // https://eslint.org/docs/rules/prefer-spread
-    'prefer-spread': 'error',
-
     // Suggest using template literals instead of string concatenation
     // https://eslint.org/docs/rules/prefer-template
     'prefer-template': 'error',
