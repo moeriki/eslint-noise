@@ -17,7 +17,7 @@ module.exports = {
 
     // Require function expressions to have a name
     // https://eslint.org/docs/rules/func-names
-    'func-names': 'error',
+    'func-names': ['error', 'as-needed'],
 
     // Require or disallow newlines around directives
     // https://eslint.org/docs/rules/lines-around-directive
