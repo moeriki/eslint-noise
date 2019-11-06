@@ -103,14 +103,14 @@ module.exports = {
 
     // Disallow negating the left operand of relational operators
     // https://eslint.org/docs/rules/no-unsafe-negation
-    'no-unsafe-negation': 'error',
+    'no-unsafe-negation': ['error', { enforceForOrderingRelations: true }],
 
     // Disallow assignments that can lead to race conditions due to usage of await or yield
     // https://eslint.org/docs/rules/require-atomic-updates
     'require-atomic-updates': 'error',
 
     // Disallow comparisons with the value NaN
-    'use-isnan': 'error',
+    'use-isnan': ['error', { enforceForIndexOf: true }],
 
     // Ensure JSDoc comments are valid
     // https://eslint.org/docs/rules/valid-jsdoc
