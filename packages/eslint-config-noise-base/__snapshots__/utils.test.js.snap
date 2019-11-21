@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`mergeRules() should throw when trying to extend a rule that does not exist 1`] = `"Rule \\"rule-key\\" not found on base rules"`;

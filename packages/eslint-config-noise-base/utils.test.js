@@ -1,4 +1,4 @@
-const { extendRule } = require('./utils');
+const { extendRule, extendRules } = require('./utils');
 
 describe('extendRule()', () => {
   it('should extend object', () => {
@@ -81,5 +81,29 @@ describe('extendRule()', () => {
       'error',
       { option: undefined },
     ]);
+  });
+});
+
+describe('mergeRules()', () => {
+  it('should throw when trying to extend a rule that does not exist', () => {
+    expect(() =>
+      extendRules({}, { 'rule-key': {} }),
+    ).toThrowErrorMatchingSnapshot();
+  });
+
+  it('should merge multiple rules', () => {
+    const baseRules = {
+      'rule-key-1': ['error', { option1: 'value' }],
+      'rule-key-2': ['warning', { option: ['ab', 'cd'] }],
+    };
+    expect(
+      extendRules(baseRules, {
+        'rule-key-1': { option2: 'value' },
+        'rule-key-2': { option: ['ef'] },
+      }),
+    ).toEqual({
+      'rule-key-1': ['error', { option1: 'value', option2: 'value' }],
+      'rule-key-2': ['warning', { option: ['ab', 'cd', 'ef'] }],
+    });
   });
 });

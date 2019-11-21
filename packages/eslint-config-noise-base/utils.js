@@ -41,6 +41,17 @@ function extendRule([ruleLevel, ...ruleArguments], ...extensions) {
   ];
 }
 
+function extendRules(baseRules, extensionRules) {
+  return Object.keys(extensionRules).reduce((accumulator, key) => {
+    if (!(key in baseRules)) {
+      throw new Error(`Rule "${key}" not found on base rules`);
+    }
+    accumulator[key] = extendRule(baseRules[key], extensionRules[key]);
+    return accumulator;
+  }, baseRules);
+}
+
 module.exports = {
   extendRule,
+  extendRules,
 };
