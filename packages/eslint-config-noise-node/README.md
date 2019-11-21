@@ -19,6 +19,7 @@ Includes these plugins.
 
 ```sh
 npm install --save-dev eslint eslint-config-noise-node
+npx install-peerdeps --dev eslint-config-noise-node
 ```
 
 ## Configure
