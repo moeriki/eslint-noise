@@ -25,6 +25,10 @@ module.exports = {
     // https://eslint.org/docs/rules/eqeqeq
     eqeqeq: ['error', 'always', { null: 'ignore' }],
 
+    // Require grouped accessor pairs in object literals and classes
+    // https://eslint.org/docs/rules/grouped-accessor-pairs
+    'grouped-accessor-pairs': ['error', 'getBeforeSet'],
+
     // Make sure for-in loops have an if statement
     'guard-for-in': 'error',
 
@@ -41,6 +45,10 @@ module.exports = {
     // Disallow lexical declarations in case/default clauses
     // https://eslint.org/docs/rules/no-case-declarations.html
     'no-case-declarations': 'error',
+
+    // Disallow returning value in constructor
+    // https://eslint.org/docs/rules/no-constructor-return
+    'no-constructor-return': 'error',
 
     // Disallow else after a return in an if
     // https://eslint.org/docs/rules/no-else-return
@@ -143,6 +151,7 @@ module.exports = {
           '$scope', // for Angular 1 scopes
           'staticContext', // for ReactRouter context
         ],
+        ignorePropertyModificationsForRegex: [],
         props: true,
       },
     ],

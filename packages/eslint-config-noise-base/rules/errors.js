@@ -38,6 +38,10 @@ module.exports = {
     // Disallow duplicate arguments in functions
     'no-dupe-args': 'error',
 
+    // Disallow duplicate conditions in `if-else-if` chains
+    // https://eslint.org/docs/rules/no-dupe-else-if
+    'no-dupe-else-if': 'error',
+
     // Disallow duplicate keys when creating object literals
     'no-dupe-keys': 'error',
 
@@ -87,6 +91,10 @@ module.exports = {
     // Disallow multiple spaces in a regular expression literal
     'no-regex-spaces': 'error',
 
+    // Disallow returning values from setter
+    // https://eslint.org/docs/rules/no-setter-return
+    'no-setter-return': 'error',
+
     // Disallow sparse arrays
     'no-sparse-arrays': 'error',
 
@@ -110,7 +118,10 @@ module.exports = {
     'require-atomic-updates': 'error',
 
     // Disallow comparisons with the value NaN
-    'use-isnan': ['error', { enforceForIndexOf: true }],
+    'use-isnan': [
+      'error',
+      { enforceForIndexOf: true, enforceForSwitchCase: true },
+    ],
 
     // Ensure JSDoc comments are valid
     // https://eslint.org/docs/rules/valid-jsdoc

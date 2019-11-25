@@ -100,6 +100,10 @@ module.exports = {
     // https://eslint.org/docs/rules/operator-assignment
     'operator-assignment': ['error', 'always'],
 
+    // Disallow the use of `Math.pow` in favor of the `**` operator
+    // https://eslint.org/docs/rules/prefer-exponentiation-operator
+    'prefer-exponentiation-operator': 'error',
+
     // Prefer use of an object spread over Object.assign
     // https://eslint.org/docs/rules/prefer-object-spread
     'prefer-object-spread': 'error',
