@@ -106,7 +106,7 @@ module.exports = {
 
     // Requires object keys to be sorted
     // https://eslint.org/docs/rules/sort-keys
-    'sort-keys': ['error', 'asc', { caseSensitive: false, natural: true }],
+    'sort-keys': ['off', 'asc', { caseSensitive: false, natural: true }],
 
     // Require or disallow a space immediately following the // or /* in a comment
     // https://eslint.org/docs/rules/spaced-comment
