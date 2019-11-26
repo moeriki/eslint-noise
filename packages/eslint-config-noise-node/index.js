@@ -1,5 +1,6 @@
 module.exports = {
   extends: ['plugin:node/recommended', 'noise-base'],
+  env: { node: true },
   rules: {
     // Disallow string concatenation with __dirname and __filename
     // https://eslint.org/docs/rules/no-path-concat
