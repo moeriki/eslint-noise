@@ -30,8 +30,10 @@ _.eslintrc_
   "extends": ["noise"],
   "root": true,
   "overrides": [
-    "files": ["**/*.ts"],
-    "extends": ["noise-ts"],
-  ],
+    {
+      "files": ["**/*.ts"],
+      "extends": ["noise-ts"]
+    }
+  ]
 }
 ```

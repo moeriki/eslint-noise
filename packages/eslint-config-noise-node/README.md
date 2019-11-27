@@ -55,7 +55,12 @@ _.eslintrc_
 ```json
 {
   "extends": ["noise", "noise-node"],
-  "overrides": [{ "files": "scripts/**", "extends": ["noise-node/script"] }],
+  "overrides": [
+    {
+      "files": "scripts/**",
+      "extends": ["noise-node/script"]
+    }
+  ],
   "root": true
 }
 ```
