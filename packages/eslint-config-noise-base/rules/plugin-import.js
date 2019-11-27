@@ -162,14 +162,13 @@ module.exports = {
     ],
   },
   settings: {
-    'import/core-modules': [],
-    'import/extensions': ['.js', '.mjs', '.jsx'],
+    'import/extensions': ['.js', '.mjs', '.ts'],
     'import/ignore': [
       'node_modules',
       '\\.(coffee|scss|css|less|hbs|svg|json)$',
     ],
     'import/resolver': {
-      node: { extensions: ['.mjs', '.js', '.json'] },
+      node: { extensions: ['.js', '.json', '.mjs', '.ts'] },
     },
   },
 };
