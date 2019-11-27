@@ -1,3 +1,5 @@
+const MODULE_EXTENSIONS = ['.js', '.mjs'];
+
 module.exports = {
   plugins: ['import'],
   rules: {
@@ -162,13 +164,13 @@ module.exports = {
     ],
   },
   settings: {
-    'import/extensions': ['.js', '.mjs', '.ts'],
+    'import/extensions': MODULE_EXTENSIONS,
     'import/ignore': [
       'node_modules',
       '\\.(coffee|scss|css|less|hbs|svg|json)$',
     ],
     'import/resolver': {
-      node: { extensions: ['.js', '.json', '.mjs', '.ts'] },
+      node: { extensions: [MODULE_EXTENSIONS, '.json'] },
     },
   },
 };
