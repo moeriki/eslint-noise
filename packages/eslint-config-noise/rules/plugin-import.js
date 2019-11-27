@@ -166,13 +166,14 @@ module.exports = {
     ],
   },
   settings: {
+    'import/core-modules': [],
     'import/extensions': MODULE_EXTENSIONS,
     'import/ignore': [
       'node_modules',
       '\\.(coffee|scss|css|less|hbs|svg|json)$',
     ],
     'import/resolver': {
-      node: { extensions: [MODULE_EXTENSIONS, '.json'] },
+      node: { extensions: [...MODULE_EXTENSIONS, '.json'] },
     },
   },
 };
