@@ -11,20 +11,12 @@ Can be used for **Node.js** development.
 
 I used to use the [Airbnb base config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base), but found myself disabling the same rules, adding the same plugins, over and over again.
 
-## Plugins
-
-All packages include these plugins.
-
-- [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
-- [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)
-- [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)
-- [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
-
 ## Packages
 
+- [eslint-config-noise](./packages/eslint-config-noise/README.md)
 - [eslint-config-noise-node](./packages/eslint-config-noise-node/README.md)
+- [eslint-config-noise-ts](./packages/eslint-config-noise-ts/README.md)
 
 ## Planned features
 
-- TypeScript support
 - Browser / React packages
