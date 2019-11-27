@@ -8,6 +8,7 @@ module.exports = {
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
+    sourceType: 'module',
     // typescript-eslint parser specific options
     warnOnUnsupportedTypeScriptVersion: true,
   },
