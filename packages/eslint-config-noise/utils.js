@@ -1,3 +1,5 @@
+'use strict';
+
 const { isPlainObject, mergeWith } = require('lodash/fp');
 
 /* eslint-disable-next-line consistent-return */

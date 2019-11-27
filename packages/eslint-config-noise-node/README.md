@@ -9,16 +9,13 @@ An opinionated [ESLint](https://github.com/eslint/eslint) config based on the [A
 
 Includes these plugins.
 
-- [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
 - [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node)
-- [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)
-- [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)
-- [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn)
 
 ## Install
 
 ```sh
-npm install --save-dev eslint eslint-config-noise-node
+npm install --save-dev eslint eslint-config-noise eslint-config-noise-node
+npx install-peerdeps --dev eslint-config-noise
 npx install-peerdeps --dev eslint-config-noise-node
 ```
 
@@ -29,7 +26,7 @@ There are many ways to [configure ESLint in the official documentation](https://
 _.eslintrc_
 
 ```json
-{ "extends": ["noise-node"], "root": true }
+{ "extends": ["noise", "noise-node"], "root": true }
 ```
 
 ### Variants
@@ -44,7 +41,7 @@ _.eslintrc_
 
 ```json
 {
-  "extends": ["noise-node", "noise-node/8"],
+  "extends": ["noise", "noise-node", "noise-node/8"],
   "root": true
 }
 ```
@@ -57,7 +54,7 @@ _.eslintrc_
 
 ```json
 {
-  "extends": ["noise-node"],
+  "extends": ["noise", "noise-node"],
   "overrides": [{ "files": "scripts/**", "extends": ["noise-node/script"] }],
   "root": true
 }

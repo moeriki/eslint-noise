@@ -1,5 +1,7 @@
+'use strict';
+
 module.exports = {
-  extends: ['plugin:node/recommended', 'noise-base'],
+  extends: ['plugin:node/recommended'],
   env: { node: true },
   rules: {
     // Disallow string concatenation with __dirname and __filename

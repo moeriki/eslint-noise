@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = {
   rules: {
     'node/prefer-global/url': 'off',
