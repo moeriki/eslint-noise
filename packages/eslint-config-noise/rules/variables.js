@@ -1,3 +1,5 @@
+'use strict';
+
 const confusingBrowserGlobals = require('confusing-browser-globals');
 
 module.exports = {

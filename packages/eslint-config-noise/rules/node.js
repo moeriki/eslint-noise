@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = {
   rules: {
     // Require all requires be top-level

@@ -1,3 +1,5 @@
+'use strict';
+
 const MODULE_EXTENSIONS = ['.js', '.mjs'];
 
 module.exports = {

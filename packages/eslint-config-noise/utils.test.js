@@ -1,3 +1,5 @@
+'use strict';
+
 const { extendRule, extendRules } = require('./utils');
 
 describe('extendRule()', () => {

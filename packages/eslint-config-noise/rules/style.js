@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = {
   rules: {
     // Require camel case names

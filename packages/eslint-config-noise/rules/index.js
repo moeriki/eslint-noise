@@ -1,3 +1,5 @@
+'use strict';
+
 const bestPractices = require('./best-practices');
 const errors = require('./errors');
 const es6 = require('./es6');

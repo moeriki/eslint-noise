@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = {
   rules: {
     // Verify `super()` callings in constructors

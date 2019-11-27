@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = {
   rules: {
     // Enforce “for” loop update clause moving the counter in the right direction
