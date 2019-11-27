@@ -2,6 +2,8 @@
 
 module.exports = {
   extends: ['plugin:node/recommended'],
+  // Override `plugin:node/recommended` who sets `ecmaVersion` to 2019
+  parserOptions: { ecmaVersion: 2020 },
   env: { node: true },
   rules: {
     // Disallow string concatenation with __dirname and __filename
