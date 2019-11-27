@@ -1,11 +1,9 @@
 {
   "command": {
     "publish": {
-      "message": "Chore(release): Publish"
+      "message": "chore(npm): publish"
     }
   },
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "version": "0.0.10"
 }
