@@ -4,6 +4,8 @@
       "message": "chore(npm): publish"
     }
   },
-  "packages": ["packages/*"],
-  "version": "0.0.10"
+  "packages": [
+    "packages/*"
+  ],
+  "version": "0.0.11"
 }
