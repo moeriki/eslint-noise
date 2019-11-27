@@ -29,7 +29,7 @@ There are many ways to [configure ESLint in the official documentation](https://
 _.eslintrc_
 
 ```json
-{ "extends": ["eslint-config-noise-node"], "root": true };
+{ "extends": ["noise-node"], "root": true };
 ```
 
 ### Variants
@@ -44,7 +44,7 @@ _.eslintrc_
 
 ```json
 {
-  "extends": ["eslint-config-noise-node", "eslint-config-noise-node/8"],
+  "extends": ["noise-node", "noise-node/8"],
   "root": true,
 };
 ```
@@ -57,9 +57,9 @@ _.eslintrc_
 
 ```json
 {
-  "extends": ["eslint-config-noise-node"],
+  "extends": ["noise-node"],
   "overrides": [
-    { "files": "scripts/**", "extends": ["eslint-config-noise-node/script"] },
+    { "files": "scripts/**", "extends": ["noise-node/script"] },
   ],
   "root": true,
 };
