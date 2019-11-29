@@ -9,14 +9,18 @@
   "repository": {
     "url": "https://github.com/Moeriki/eslint-noise"
   },
+  "engines": {
+    "node": ">=8.3"
+  },
   "main": "index.js",
   "files": [
     "index.js",
     "utils.js",
     "rules/*"
   ],
-  "engines": {
-    "node": ">=8.3"
+  "exports": {
+    "./rules": "./rules/index.js",
+    "./utils": "./utils.js"
   },
   "dependencies": {
     "confusing-browser-globals": "^1.0.9",
