@@ -23,7 +23,7 @@
   },
   "main": "index.js",
   "files": [
-    "index.js"
+    "*.js"
   ],
   "engines": {
     "node": ">=8.3"
