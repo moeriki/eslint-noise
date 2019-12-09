@@ -78,6 +78,9 @@ module.exports = {
     // https://eslint.org/docs/rules/no-plusplus
     'no-plusplus': 'error',
 
+    // https://eslint.org/docs/rules/no-restricted-syntax
+    'no-restricted-syntax': ['error', 'SequenceExpression'],
+
     // Disallow dangling underscores in identifiers
     // https://eslint.org/docs/rules/no-underscore-dangle
     'no-underscore-dangle': [
