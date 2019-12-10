@@ -53,8 +53,8 @@ module.exports = {
     'node/prefer-promises/dns': 'error',
     'node/prefer-promises/fs': 'error',
 
-    // I don't understand the purpose
-    'node/process-exit-as-throw': 'off',
+    // Make process.exit() expressions the same code path as throw
+    'node/process-exit-as-throw': 'error',
 
     // Do not use a for loop that can be replaced with a for-of loop
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-for-loop.md
