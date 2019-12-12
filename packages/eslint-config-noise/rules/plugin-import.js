@@ -155,6 +155,7 @@ module.exports = {
     'import/order': [
       'error',
       {
+        alphabetize: true,
         groups: [
           'builtin',
           'external',
