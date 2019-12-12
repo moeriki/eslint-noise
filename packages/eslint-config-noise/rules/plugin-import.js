@@ -18,7 +18,7 @@ module.exports = {
     'import/extensions': [
       'error',
       'ignorePackages',
-      { js: 'never', jsx: 'never', mjs: 'never' },
+      { js: 'never', jsx: 'never', mjs: 'never', ts: 'never', tsx: 'never' },
     ],
 
     // Disallow non-import statements appearing before import statements
