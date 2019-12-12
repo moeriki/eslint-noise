@@ -13,7 +13,7 @@ module.exports = {
   rules: {
     'import/no-internal-modules': extendRule(
       pluginImport.rules['import/no-internal-modules'],
-      { allow: ['eslint-config-noise-*/**'] },
+      { allow: ['eslint-config-noise/**'] },
     ),
     'no-magic-numbers': 'off',
   },
