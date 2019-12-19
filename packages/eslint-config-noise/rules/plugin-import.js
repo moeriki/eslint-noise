@@ -94,6 +94,8 @@ module.exports = {
           '**/Gruntfile{,.js}', // grunt config
           '**/protractor.conf.js', // protractor config
           '**/protractor.conf.*.js', // protractor config
+          '**/wallaby.js', // Wallaby config
+          '**/.eslintrc.js', // ESLint config
         ],
         optionalDependencies: false,
       },
