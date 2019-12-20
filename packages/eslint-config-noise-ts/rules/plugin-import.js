@@ -1,12 +1,19 @@
 'use strict';
 
-const MODULE_EXTENSIONS = ['.js', '.mjs', '.ts'];
+const TS_EXTENSIONS = ['.ts', '.tsx', '.d.ts'];
+
+const ALL_EXTENSIONS = [...TS_EXTENSIONS, '.js', '.jsx'];
 
 module.exports = {
   settings: {
-    'import/extensions': MODULE_EXTENSIONS,
+    'import/extensions': ALL_EXTENSIONS,
+    'import/parsers': {
+      '@typescript-eslint/parser': TS_EXTENSIONS,
+    },
     'import/resolver': {
-      node: { extensions: [...MODULE_EXTENSIONS, '.json'] },
+      node: {
+        extensions: ALL_EXTENSIONS,
+      },
     },
   },
 };
