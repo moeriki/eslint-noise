@@ -105,7 +105,7 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-internal-modules.md
     'import/no-internal-modules': [
       'error',
-      { allow: ['*/cjs', '*/esm?', '*/fp', '*/register'] },
+      { allow: ['*/cjs', '*/es{m,}', '*/fp', '*/register', 'uuid/v?'] },
     ],
 
     // Forbid mutable exports
