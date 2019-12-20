@@ -11,9 +11,8 @@ module.exports = {
       '@typescript-eslint/parser': TS_EXTENSIONS,
     },
     'import/resolver': {
-      node: {
-        extensions: ALL_EXTENSIONS,
-      },
+      node: { extensions: ALL_EXTENSIONS },
+      typescript: { alwaysTryTypes: true },
     },
   },
 };
