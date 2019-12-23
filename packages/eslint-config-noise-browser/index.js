@@ -15,6 +15,9 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-event-key.md
     'unicorn/prefer-event-key': 'error',
 
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-modern-dom-apis.md
+    'unicorn/prefer-modern-dom-apis': 'error',
+
     // Prefer `Node#append()` over `Node#appendChild()`
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-node-append.md
     'unicorn/prefer-node-append': 'error',
