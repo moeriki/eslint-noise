@@ -1,0 +1,40 @@
+{
+  "name": "eslint-config-noise-react",
+  "version": "0.0.21",
+  "author": {
+    "email": "dieterluypaert@gmail.com",
+    "name": "Dieter Luypaert"
+  },
+  "description": "A very Noise ESLint React config indeed",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "eslintplugin",
+    "eslint-plugin",
+    "linter",
+    "lint",
+    "react",
+    "style"
+  ],
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/Moeriki/eslint-noise"
+  },
+  "main": "index.js",
+  "files": [
+    "*.js",
+    "rules/*"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "peerDependencies": {
+    "eslint": ">=6.7",
+    "eslint-config-noise": "0.0.21",
+    "eslint-plugin-import": "^2.19.0",
+    "eslint-plugin-jsx-a11y": "^6.2.0",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^2.3.0"
+  }
+}

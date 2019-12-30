@@ -17,6 +17,7 @@ I used to use the [Airbnb base config](https://github.com/airbnb/javascript/tree
 - [eslint-config-noise-browser](./packages/eslint-config-noise-browser/README.md)
 - [eslint-config-noise-node](./packages/eslint-config-noise-node/README.md)
 - [eslint-config-noise-ts](./packages/eslint-config-noise-ts/README.md)
+- [eslint-config-noise-react](./packages/eslint-config-noise-react/README.md)
 
 ## Planned features
 
