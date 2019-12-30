@@ -1,3 +1,5 @@
+'use strict';
+
 const { extendRule } = require('./packages/eslint-config-noise/utils');
 const { pluginImport } = require('./packages/eslint-config-noise/rules');
 
@@ -13,7 +15,7 @@ module.exports = {
   rules: {
     'import/no-internal-modules': extendRule(
       pluginImport.rules['import/no-internal-modules'],
-      { allow: ['eslint-config-noise/**'] },
+      { allow: ['**/eslint-config-noise/**'] },
     ),
     'no-magic-numbers': 'off',
   },
