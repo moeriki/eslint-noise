@@ -1,7 +1,7 @@
 'use strict';
 
-const { style: baseStyleRules } = require('eslint-config-noise/rules');
-const { extendRule } = require('eslint-config-noise/utils');
+const { style: baseStyle } = require('eslint-config-noise/rules');
+const { extendRules } = require('eslint-config-noise/utils');
 
 module.exports = {
   rules: {
@@ -28,8 +28,10 @@ module.exports = {
         ],
       },
     ],
-    'no-underscore-dangle': extendRule(baseStyleRules, {
-      allow: ['__REDUX_DEVTOOLS_EXTENSION_COMPOSE__'],
+    ...extendRules(baseStyle.rules, {
+      'no-underscore-dangle': {
+        allow: ['__REDUX_DEVTOOLS_EXTENSION_COMPOSE__'],
+      },
     }),
   },
 };

@@ -31,7 +31,7 @@
   },
   "peerDependencies": {
     "eslint": ">=6.7",
-    "eslint-config-noise": "0.0.21",
+    "eslint-config-noise": "^0.0.22",
     "eslint-config-prettier": "^6.9.0",
     "eslint-plugin-import": "^2.19.0",
     "eslint-plugin-jsx-a11y": "^6.2.0",
