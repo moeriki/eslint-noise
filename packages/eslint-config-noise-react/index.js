@@ -2,7 +2,6 @@
 
 module.exports = {
   extends: [
-    'noise-browser',
     ...[
       './rules/plugin-import',
       './rules/plugin-jsx-a11y',
