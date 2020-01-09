@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-noise-ts",
-  "version": "0.0.23",
+  "version": "0.0.24",
   "author": {
     "email": "dieterluypaert@gmail.com",
     "name": "Dieter Luypaert"
