@@ -157,8 +157,7 @@ module.exports = {
     'import/order': [
       'error',
       {
-        // TODO [eslint-plugin-import@>2.19.1] enable alphabetize
-        // alphabetize: { order: 'asc' },
+        alphabetize: { order: 'asc' },
         groups: [
           'builtin',
           'external',

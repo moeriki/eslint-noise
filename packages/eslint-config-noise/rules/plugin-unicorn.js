@@ -74,10 +74,6 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-zero-fractions.md
     'unicorn/no-zero-fractions': 'error',
 
-    // Prefer the exponentiation operator over Math.pow()
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-exponentiation-operator.md
-    'unicorn/prefer-exponentiation-operator': 'error',
-
     // Prefer `.flatMap(…)` over `.map(…).flat()`
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-flat-map.md
     'unicorn/prefer-flat-map': 'error',
@@ -89,6 +85,9 @@ module.exports = {
     // Prefer negative index over `.length - index` for `{String,Array,TypedArray}#slice()` and `Array#splice()`
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-negative-index.md
     'unicorn/prefer-negative-index': 'error',
+
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-replace-all.md
+    'unicorn/prefer-replace-all': 'error',
 
     // Prefer the spread operator over Array.from()
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-spread.md
