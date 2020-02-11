@@ -111,7 +111,14 @@ module.exports = {
     'unicorn/prefer-type-error': 'error',
 
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prevent-abbreviations.md
-    'unicorn/prevent-abbreviations': 'error',
+    'unicorn/prevent-abbreviations': [
+      'error',
+      {
+        replacements: {
+          ctx: { context: false },
+        },
+      },
+    ],
 
     // Enforce the use of regex shorthands to improve readability
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/regex-shorthand.md
