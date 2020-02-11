@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-noise-node",
-  "version": "0.0.24",
+  "version": "0.0.25",
   "author": {
     "email": "dieterluypaert@gmail.com",
     "name": "Dieter Luypaert"
