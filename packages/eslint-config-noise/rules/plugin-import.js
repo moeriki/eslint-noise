@@ -162,7 +162,6 @@ module.exports = {
     // sibling: './bar', './bar/baz'
     // index: './'
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
-    // TODO [2020-01-01] (Node.js v8 leaves maintainace) Replace with https://github.com/lydell/eslint-plugin-simple-import-sort
     'import/order': [
       'error',
       {

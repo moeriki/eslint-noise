@@ -1,7 +1,7 @@
 'use strict';
 
-const { extendRule } = require('./packages/eslint-config-noise/utils');
 const { pluginImport } = require('./packages/eslint-config-noise/rules');
+const { extendRule } = require('./packages/eslint-config-noise/utils');
 
 module.exports = {
   extends: ['noise', 'noise-node'],
