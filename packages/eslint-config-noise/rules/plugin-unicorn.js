@@ -115,6 +115,8 @@ module.exports = {
       {
         replacements: {
           ctx: { context: false },
+          // Default it would rename "pkg" to "package_" because "package" is reserved.
+          pkg: { package: false },
         },
       },
     ],
