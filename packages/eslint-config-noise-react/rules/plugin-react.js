@@ -410,13 +410,11 @@ module.exports = {
 
     // Enforce state initialization style
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/state-in-constructor.md
-    // TODO [engine:node@>=12.4.0] set to "never"
-    'react/state-in-constructor': ['error', 'always'],
+    'react/state-in-constructor': ['error', 'never'],
 
     // Enforces where React component static properties should be positioned
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/static-property-placement.md
-    // TODO [engine:node@>=12.4.0] set to "static public field"
-    'react/static-property-placement': ['error', 'property assignment'],
+    'react/static-property-placement': ['error', 'static public field'],
 
     // Require style prop value be an object or var
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/style-prop-object.md
