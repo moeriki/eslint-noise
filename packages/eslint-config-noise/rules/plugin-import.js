@@ -111,6 +111,7 @@ module.exports = {
           '*/es{m,}',
           '*/fp',
           '*/register',
+          'firebase/{analytics,app,auth,database,firestore}',
           'lodash/**',
           'uuid/v?',
         ],
@@ -140,7 +141,10 @@ module.exports = {
     // Prevent unassigned imports
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unassigned-import.md
     // Importing for side effects is perfectly acceptable, if you need side effects.
-    'import/no-unassigned-import': ['error', { allow: ['**/*.css'] }],
+    'import/no-unassigned-import': [
+      'error',
+      { allow: ['**/*.css', 'firebase/{analytics,auth,database,firestore}'] },
+    ],
 
     // Ensure imports point to files/modules that can be resolved
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
