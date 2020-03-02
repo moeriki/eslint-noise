@@ -34,5 +34,9 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-unicorn": "^16.1.1",
     "prettier": "^1.19.1"
+  },
+  "volta": {
+    "node": "10.19.0",
+    "yarn": "1.22.0"
   }
 }
