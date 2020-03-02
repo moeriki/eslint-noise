@@ -105,6 +105,10 @@ module.exports = {
     // https://eslint.org/docs/rules/operator-assignment
     'operator-assignment': ['error', 'always'],
 
+    // Require using arrow functions for callbacks
+    // https://eslint.org/docs/rules/prefer-arrow-callback
+    'prefer-arrow-callback': ['error', { allowNamedFunctions: true }],
+
     // Disallow the use of `Math.pow` in favor of the `**` operator
     // https://eslint.org/docs/rules/prefer-exponentiation-operator
     'prefer-exponentiation-operator': 'error',
