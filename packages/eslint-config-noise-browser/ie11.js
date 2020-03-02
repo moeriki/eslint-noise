@@ -12,8 +12,5 @@ module.exports = {
         selector: 'ForOfStatement',
       },
     ],
-
-    // Not supported
-    'prefer-reflect': 'off',
   },
 };
