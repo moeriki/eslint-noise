@@ -97,6 +97,7 @@ module.exports = {
           '**/wallaby.js', // Wallaby config
           '**/.eslintrc.js', // ESLint config
           '**/{script,scripts,util,utils}/**',
+          'wallaby.js', // Wallaby config
         ],
         optionalDependencies: false,
       },
