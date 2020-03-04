@@ -86,7 +86,7 @@ module.exports = {
     'no-underscore-dangle': [
       'error',
       {
-        allow: ['_id'],
+        allow: ['_id', '_', '__'],
         allowAfterSuper: false,
         allowAfterThis: false,
         enforceInMethodNames: true,
