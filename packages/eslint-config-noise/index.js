@@ -17,6 +17,7 @@ module.exports = {
   ],
   env: { commonjs: true, es2020: true },
   parserOptions: { sourceType: 'module' },
+  reportUnusedDisableDirectives: true,
   rules: {
     'prettier/prettier': [
       'error',
