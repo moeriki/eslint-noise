@@ -12,4 +12,7 @@ module.exports = {
     // typescript-eslint parser specific options
     warnOnUnsupportedTypeScriptVersion: true,
   },
+  rules: {
+    'valid-jsdoc': 'off',
+  },
 };
