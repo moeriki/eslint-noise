@@ -113,6 +113,7 @@ module.exports = {
           '*/es{m,}',
           '*/fp',
           '*/register',
+          '*/testing',
           'firebase/{analytics,app,auth,database,firestore}',
           'lodash/**',
           'uuid/v?',
