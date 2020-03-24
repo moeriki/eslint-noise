@@ -133,7 +133,10 @@ module.exports = {
 
     // Prevent usage of unsafe `target="_blank"`
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-target-blank.md
-    'react/jsx-no-target-blank': ['error', { enforceDynamicLinks: 'always' }],
+    'react/jsx-no-target-blank': [
+      'error',
+      { allowReferrer: false, enforceDynamicLinks: 'always' },
+    ],
 
     // Disallow undeclared variables in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md
