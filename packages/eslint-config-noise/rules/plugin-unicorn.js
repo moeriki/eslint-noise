@@ -116,6 +116,8 @@ module.exports = {
       {
         replacements: {
           // Allow Koa context
+          args: { arguments: false },
+          // Allow Koa context
           ctx: { context: false },
           // Default it would rename "pkg" to "package_" because "package" is reserved.
           pkg: { package: false },
