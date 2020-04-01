@@ -88,7 +88,7 @@ module.exports = {
 
     // Prefer `Number` static properties over global ones
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-number-properties.md
-    'prefer-number-properties': 'error',
+    'unicorn/prefer-number-properties': 'error',
 
     // Prefer the spread operator over Array.from()
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-spread.md
