@@ -132,7 +132,7 @@ module.exports = {
           exceptions: ['-', '+'],
           markers: ['=', '!', ':', '::'],
         },
-        line: { exceptions: ['-', '+'], markers: ['=', '!'] },
+        line: { exceptions: ['-', '+'], markers: ['=', '!', '/'] },
       },
     ],
   },
