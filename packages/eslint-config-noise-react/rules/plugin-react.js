@@ -143,7 +143,7 @@ module.exports = {
     'react/jsx-no-undef': 'error',
 
     // Disallow unnecessary fragments
-    // https://github.com/yannickcr/eslint-plugin-react/blob/v7.15.0/docs/rules/jsx-no-useless-fragment.md
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-useless-fragment.md
     'react/jsx-no-useless-fragment': 'error',
 
     // Enforce PascalCase for user-defined JSX components

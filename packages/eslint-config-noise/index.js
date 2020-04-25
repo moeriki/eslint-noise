@@ -6,7 +6,6 @@ module.exports = {
       './rules/best-practices',
       './rules/errors',
       './rules/es6',
-      './rules/node',
       './rules/plugin-import',
       './rules/plugin-promise',
       './rules/plugin-unicorn',

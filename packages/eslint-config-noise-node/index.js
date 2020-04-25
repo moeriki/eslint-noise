@@ -7,20 +7,29 @@ module.exports = {
   env: { node: true },
   rules: {
     // Disallow string concatenation with __dirname and __filename
-    // https://eslint.org/docs/rules/no-path-concat
-    'no-path-concat': 'error',
+    // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-path-concat.md
+    'node/no-path-concat': 'error',
 
     // This is enabled by plugin-node. We will use a unicorn rule for this
-    'no-process-exit': 'off',
+    'node/no-process-exit': 'off',
 
-    // Disallow use of synchronous methods (off by default)
-    'no-sync': 'error',
+    // Disallow use of synchronous methods
+    // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-sync.md
+    'node/no-sync': 'error',
 
     // Prefer 'module.exports'
     'node/exports-style': ['error', 'module.exports'],
 
+    // Require all requires be top-level
+    // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/global-require.md
+    'node/global-require': 'error',
+
     // Node has many deprecated APIs
     'node/no-deprecated-api': 'error',
+
+    // Disallow use of new operator with the require function
+    // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-new-require.md
+    'node/no-new-require': 'error',
 
     // Disable these recommended rules because we use 'eslint-plugin-import'
     'node/no-extraneous-import': 'off',
