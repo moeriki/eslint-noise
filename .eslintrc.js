@@ -13,10 +13,11 @@ module.exports = {
   ],
   root: true,
   rules: {
+    'no-magic-numbers': 'off',
     'import/no-internal-modules': extendRule(
       pluginImport.rules['import/no-internal-modules'],
       { allow: ['**/eslint-config-noise/**'] },
     ),
-    'no-magic-numbers': 'off',
+    'unicorn/string-content': 'off',
   },
 };
