@@ -42,7 +42,7 @@ Eg. with Gatsby and Next.js you'd use a `Link` component instead of an `a` eleme
 _.eslintrc.js_
 
 ```js
-const { extendRules } = require('eslint-config-noise-base/utils');
+const { extendRules } = require('eslint-noise-utils');
 const { pluginJsxA11y } = require('eslint-config-noise-react/rules');
 module.exports = {
   rules: extendRules(pluginJsxA11y, {

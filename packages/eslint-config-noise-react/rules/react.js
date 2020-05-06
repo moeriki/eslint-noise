@@ -1,7 +1,7 @@
 'use strict';
 
 const { style: baseStyle } = require('eslint-config-noise/rules');
-const { extendRules } = require('eslint-config-noise/utils');
+const { extendRules } = require('eslint-noise-utils');
 
 module.exports = {
   rules: {

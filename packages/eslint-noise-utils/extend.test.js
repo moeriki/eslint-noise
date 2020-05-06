@@ -1,6 +1,6 @@
 'use strict';
 
-const { extendRule, extendRules } = require('./utils');
+const { extendRule, extendRules } = require('./extend');
 
 describe('extendRule()', () => {
   it('should extend object', () => {

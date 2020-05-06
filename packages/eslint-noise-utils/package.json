@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-noise",
+  "name": "eslint-noise-utils",
   "version": "0.0.39",
   "author": {
     "email": "dieterluypaert@gmail.com",
@@ -14,11 +14,10 @@
   },
   "main": "index.js",
   "files": [
-    "rules/*"
+    "utils.js"
   ],
   "dependencies": {
-    "confusing-browser-globals": "^1.0.9",
-    "eslint-noise-utils": "*"
+    "lodash": "^4.17.15"
   },
   "peerDependencies": {
     "eslint": ">=6.8.0",
