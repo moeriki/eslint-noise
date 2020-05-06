@@ -114,6 +114,7 @@ module.exports = {
           '*/fp',
           '*/register',
           '*/testing',
+          'eslint-config-*/rules',
           'firebase/{analytics,app,auth,database,firestore}',
           'lodash/**',
           'uuid/v?',
