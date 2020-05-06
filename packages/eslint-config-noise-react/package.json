@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-noise-react",
-  "version": "0.0.39",
+  "version": "0.0.40",
   "author": {
     "email": "dieterluypaert@gmail.com",
     "name": "Dieter Luypaert"
@@ -30,7 +30,7 @@
     "node": ">=10"
   },
   "dependencies": {
-    "eslint-noise-utils": "<1"
+    "eslint-noise-utils": "^0.0.40"
   },
   "peerDependencies": {
     "eslint": ">=6.8.0",

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-noise",
-  "version": "0.0.39",
+  "version": "0.0.40",
   "author": {
     "email": "dieterluypaert@gmail.com",
     "name": "Dieter Luypaert"
@@ -18,7 +18,7 @@
   ],
   "dependencies": {
     "confusing-browser-globals": "^1.0.9",
-    "eslint-noise-utils": "*"
+    "eslint-noise-utils": "^0.0.40"
   },
   "peerDependencies": {
     "eslint": ">=6.8.0",
