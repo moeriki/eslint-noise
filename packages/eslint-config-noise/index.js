@@ -19,7 +19,7 @@ module.exports = {
   reportUnusedDisableDirectives: true,
   rules: {
     'prettier/prettier': [
-      'error',
+      'warn',
       { arrowParens: 'always', singleQuote: true, trailingComma: 'all' },
     ],
     strict: ['error', 'global'],
