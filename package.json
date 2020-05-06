@@ -14,6 +14,8 @@
   },
   "devDependencies": {
     "eslint": "^7.0.0-rc.0",
+    "eslint-config-noise": "*",
+    "eslint-config-noise-node": "*",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-node": "^11.1.0",
