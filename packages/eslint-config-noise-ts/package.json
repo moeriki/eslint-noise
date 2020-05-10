@@ -27,7 +27,7 @@
     "rules/"
   ],
   "engines": {
-    "node": ">=10"
+    "node": "^10 || ^12 || ^14"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.29.0",

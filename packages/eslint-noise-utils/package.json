@@ -10,7 +10,7 @@
     "url": "https://github.com/Moeriki/eslint-noise"
   },
   "engines": {
-    "node": ">=10"
+    "node": "^10 || ^12 || ^14"
   },
   "main": "index.js",
   "files": [
