@@ -1,11 +1,23 @@
 {
   "name": "eslint-config-noise-react",
   "version": "0.0.41",
+  "description": "A very Noise ESLint React config indeed",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/Moeriki/eslint-noise"
+  },
   "author": {
     "email": "dieterluypaert@gmail.com",
     "name": "Dieter Luypaert"
   },
-  "description": "A very Noise ESLint React config indeed",
+  "main": "index.js",
+  "engines": {
+    "node": "^10 || ^12 || ^14"
+  },
+  "files": [
+    "*.js",
+    "rules/*"
+  ],
   "keywords": [
     "eslint",
     "eslintconfig",
@@ -17,17 +29,9 @@
     "react",
     "style"
   ],
-  "license": "MIT",
-  "repository": {
-    "url": "https://github.com/Moeriki/eslint-noise"
-  },
-  "main": "index.js",
-  "files": [
-    "*.js",
-    "rules/*"
-  ],
-  "engines": {
-    "node": "^10 || ^12 || ^14"
+  "peerDependencies": {
+    "eslint": "^7",
+    "eslint-config-noise": "<1.0"
   },
   "dependencies": {
     "eslint-noise-utils": "^0.0.41"

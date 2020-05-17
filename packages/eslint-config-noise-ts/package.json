@@ -1,11 +1,23 @@
 {
   "name": "eslint-config-noise-ts",
   "version": "0.0.41",
+  "description": "A very Noise ESLint node config indeed",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/Moeriki/eslint-noise"
+  },
   "author": {
     "email": "dieterluypaert@gmail.com",
     "name": "Dieter Luypaert"
   },
-  "description": "A very Noise ESLint node config indeed",
+  "main": "index.js",
+  "engines": {
+    "node": "^10 || ^12 || ^14"
+  },
+  "files": [
+    "index.js",
+    "rules/"
+  ],
   "keywords": [
     "eslint",
     "eslintconfig",
@@ -17,18 +29,6 @@
     "node",
     "style"
   ],
-  "license": "MIT",
-  "repository": {
-    "url": "https://github.com/Moeriki/eslint-noise"
-  },
-  "main": "index.js",
-  "files": [
-    "index.js",
-    "rules/"
-  ],
-  "engines": {
-    "node": "^10 || ^12 || ^14"
-  },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.29.0",
     "@typescript-eslint/parser": "^2.29.0",

@@ -1,18 +1,18 @@
 {
   "name": "eslint-noise-utils",
   "version": "0.0.41",
-  "author": {
-    "email": "dieterluypaert@gmail.com",
-    "name": "Dieter Luypaert"
-  },
   "license": "MIT",
   "repository": {
     "url": "https://github.com/Moeriki/eslint-noise"
   },
+  "author": {
+    "email": "dieterluypaert@gmail.com",
+    "name": "Dieter Luypaert"
+  },
+  "main": "index.js",
   "engines": {
     "node": "^10 || ^12 || ^14"
   },
-  "main": "index.js",
   "files": [
     "*.js"
   ],

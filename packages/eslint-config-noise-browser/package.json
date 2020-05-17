@@ -1,11 +1,22 @@
 {
   "name": "eslint-config-noise-browser",
   "version": "0.0.41",
+  "description": "A very Noise ESLint browser config indeed",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/Moeriki/eslint-noise"
+  },
   "author": {
     "email": "dieterluypaert@gmail.com",
     "name": "Dieter Luypaert"
   },
-  "description": "A very Noise ESLint browser config indeed",
+  "main": "index.js",
+  "engines": {
+    "node": "^10 || ^12 || ^14"
+  },
+  "files": [
+    "*.js"
+  ],
   "keywords": [
     "browser",
     "eslint",
@@ -17,17 +28,6 @@
     "lint",
     "style"
   ],
-  "license": "MIT",
-  "repository": {
-    "url": "https://github.com/Moeriki/eslint-noise"
-  },
-  "main": "index.js",
-  "files": [
-    "*.js"
-  ],
-  "engines": {
-    "node": "^10 || ^12 || ^14"
-  },
   "peerDependencies": {
     "eslint": ">=6.8.0",
     "eslint-plugin-unicorn": "^19.0.0"

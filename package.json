@@ -5,9 +5,6 @@
   "engines": {
     "node": "^10 || ^12 || ^14"
   },
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
     "lint": "eslint --cache --fix packages/",
     "test": "jest"
@@ -25,5 +22,8 @@
     "jest": "^26.0.0",
     "lerna": "^3.20.2",
     "prettier": "^2.0.5"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
