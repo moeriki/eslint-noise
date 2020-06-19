@@ -23,23 +23,22 @@ module.exports = {
 
     '@typescript-eslint/explicit-function-return-type': 'error',
 
-    // Add TypeScript specific rules (and turn off ESLint equivalents)
+    // Enforces naming conventions for everything across a codebase
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/naming-convention.md
     camelcase: 'off',
     '@typescript-eslint/naming-convention': [
       'error',
-      [
-        { selector: 'default', format: ['camelCase'] },
-        { selector: 'function', format: ['camelCase', 'PascalCase'] },
-        { selector: 'class', format: ['PascalCase'] },
-        { selector: 'variable', format: ['camelCase', 'UPPER_CASE'] },
-        {
-          selector: 'variable',
-          types: ['boolean'],
-          format: ['camelCase'],
-          prefix: ['is', 'should', 'has', 'can', 'did', 'will'],
-        },
-        { selector: 'typeLike', format: ['PascalCase'] },
-      ],
+      { selector: 'default', format: ['camelCase'] },
+      { selector: 'function', format: ['camelCase', 'PascalCase'] },
+      { selector: 'class', format: ['PascalCase'] },
+      { selector: 'variable', format: ['camelCase', 'UPPER_CASE'] },
+      {
+        selector: 'variable',
+        types: ['boolean'],
+        format: ['camelCase'],
+        prefix: ['is', 'should', 'has', 'can', 'did', 'will'],
+      },
+      { selector: 'typeLike', format: ['PascalCase'] },
     ],
 
     'no-array-constructor': 'off',
