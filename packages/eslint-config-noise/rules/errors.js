@@ -75,6 +75,10 @@ module.exports = {
     // Disallow irregular whitespace outside of strings and comments
     'no-irregular-whitespace': 'error',
 
+    // Disallow Number Literals That Lose Precision
+    // https://eslint.org/docs/rules/no-loss-of-precision
+    'no-loss-of-precision': 'error',
+
     // Disallow characters which are made with multiple code points in character class syntax
     // https://eslint.org/docs/rules/no-misleading-character-class
     'no-misleading-character-class': 'error',

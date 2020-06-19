@@ -15,7 +15,7 @@ module.exports = {
     'plugin:prettier/recommended',
   ],
   env: { commonjs: true, es2020: true },
-  parserOptions: { sourceType: 'module' },
+  parserOptions: { ecmaVersion: 2020, sourceType: 'module' },
   reportUnusedDisableDirectives: true,
   rules: {
     'prettier/prettier': [
