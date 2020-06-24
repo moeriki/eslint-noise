@@ -33,17 +33,44 @@ module.exports = {
     camelcase: 'off',
     '@typescript-eslint/naming-convention': [
       'error',
-      { selector: 'default', format: ['camelCase'] },
-      { selector: 'function', format: ['camelCase', 'PascalCase'] },
-      { selector: 'class', format: ['PascalCase'] },
-      { selector: 'variable', format: ['camelCase', 'UPPER_CASE'] },
+      {
+        selector: 'default',
+        format: ['camelCase'],
+        leadingUnderscore: 'allow',
+      },
+      {
+        selector: 'class',
+        format: ['PascalCase'],
+      },
+      {
+        selector: 'enumMember',
+        format: ['PascalCase'],
+      },
+      {
+        selector: 'function',
+        format: ['camelCase', 'PascalCase'],
+      },
+      {
+        selector: 'property',
+        format: ['camelCase', 'PascalCase', 'snake_case', 'UPPER_CASE'],
+        leadingUnderscore: 'allow',
+      },
+      {
+        selector: 'typeLike',
+        format: ['PascalCase'],
+      },
+      {
+        selector: 'variable',
+        format: ['camelCase', 'PascalCase', 'UPPER_CASE'],
+        leadingUnderscore: 'allow',
+      },
       {
         selector: 'variable',
         types: ['boolean'],
-        format: ['camelCase'],
-        prefix: ['is', 'should', 'has', 'can', 'did', 'will'],
+        format: ['PascalCase'],
+        leadingUnderscore: 'allow',
+        prefix: ['are', 'is', 'should', 'has', 'can', 'did', 'will'],
       },
-      { selector: 'typeLike', format: ['PascalCase'] },
     ],
 
     'no-array-constructor': 'off',
