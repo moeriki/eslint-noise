@@ -11,6 +11,11 @@ module.exports = {
 
     // plugin rules
 
+    // Disallow literal numbers that lose precision
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-loss-of-precision.md
+    'no-loss-of-precision': 'off',
+    '@typescript-eslint/no-loss-of-precision': 'error',
+
     '@typescript-eslint/adjacent-overload-signatures': 'error',
 
     // Bans `// @ts-<directive>` comments from being used
