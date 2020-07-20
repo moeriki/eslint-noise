@@ -53,7 +53,7 @@ module.exports = {
 
     // Forbid cyclical dependencies between modules
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-cycle.md
-    'import/no-cycle': ['error', { maxDepth: Infinity }],
+    'import/no-cycle': ['error', { maxDepth: '∞' }],
 
     // Disallow use of jsdoc-marked-deprecated imports
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-deprecated.md

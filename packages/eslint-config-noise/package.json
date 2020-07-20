@@ -23,7 +23,7 @@
     "confusing-browser-globals": "^1.0.9",
     "eslint-config-prettier": "^6.11.0",
     "eslint-noise-utils": "^0.2.0",
-    "eslint-plugin-import": "^2.21.0",
+    "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-promise": "^4.2.0",
     "eslint-plugin-unicorn": "^20.1.0",
