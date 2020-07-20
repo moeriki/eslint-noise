@@ -3,7 +3,15 @@
 module.exports = {
   rules: {
     // Require camel case names
-    camelcase: ['error', { ignoreDestructuring: false, properties: 'never' }],
+    camelcase: [
+      'error',
+      {
+        ignoreDestructuring: false,
+        ignoreGlobals: true,
+        ignoreImports: true,
+        properties: 'never',
+      },
+    ],
 
     // Enforces consistent naming when capturing the current execution context
     'consistent-this': ['error', 'DEPRECATED_RENAMED_THIS'],

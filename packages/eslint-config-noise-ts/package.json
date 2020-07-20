@@ -30,7 +30,7 @@
     "style"
   ],
   "peerDependencies": {
-    "eslint": "^7"
+    "eslint": "^7.5"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^3.4.0",
