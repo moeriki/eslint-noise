@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-noise-react",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A very Noise ESLint React config indeed",
   "license": "MIT",
   "repository": {
@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "eslint-config-prettier": "^6.11.0",
-    "eslint-noise-utils": "^0.2.0",
+    "eslint-noise-utils": "^0.3.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsx-a11y": "^6.3.0",
     "eslint-plugin-react": "^7.20.0",
