@@ -136,6 +136,12 @@ module.exports = {
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-extra-non-null-assertion.md
     '@typescript-eslint/no-extra-non-null-assertion': ['error'],
 
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-extraneous-class.md
+    '@typescript-eslint/no-extraneous-class': [
+      'error',
+      { allowWithDecorator: true },
+    ],
+
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-inferrable-types.md
     '@typescript-eslint/no-inferrable-types': 'error',
 
