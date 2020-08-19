@@ -14,6 +14,9 @@ module.exports = {
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/adjacent-overload-signatures.md
     '@typescript-eslint/adjacent-overload-signatures': 'error',
 
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/array-type.md
+    '@typescript-eslint/array-type': ['error', 'array-simple'],
+
     // Bans `// @ts-<directive>` comments from being used
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/ban-ts-comment.md
     '@typescript-eslint/ban-ts-comment': 'error',
