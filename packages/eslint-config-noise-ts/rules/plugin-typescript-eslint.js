@@ -277,5 +277,8 @@ module.exports = {
     '@typescript-eslint/switch-exhaustiveness-check': 'error',
 
     '@typescript-eslint/triple-slash-reference': 'error',
+
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/unified-signatures.md
+    '@typescript-eslint/unified-signatures': 'error',
   },
 };
