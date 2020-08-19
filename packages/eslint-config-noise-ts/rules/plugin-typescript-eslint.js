@@ -238,6 +238,9 @@ module.exports = {
 
     '@typescript-eslint/prefer-optional-chain': 'error',
 
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-reduce-type-parameter.md
+    '@typescript-eslint/prefer-reduce-type-parameter': 'error',
+
     // Enforce template literal expressions to be of string type
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/restrict-template-expressions.md
     '@typescript-eslint/restrict-template-expressions': [
