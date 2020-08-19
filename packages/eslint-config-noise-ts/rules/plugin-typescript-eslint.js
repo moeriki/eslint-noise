@@ -35,39 +35,44 @@ module.exports = {
       'error',
       {
         selector: 'default',
-        format: ['camelCase'],
+        format: ['strictCamelCase'],
         leadingUnderscore: 'allow',
       },
       {
         selector: 'class',
-        format: ['PascalCase'],
+        format: ['StrictPascalCase'],
       },
       {
         selector: 'enumMember',
-        format: ['PascalCase'],
+        format: ['StrictPascalCase'],
       },
       {
         selector: 'function',
-        format: ['camelCase', 'PascalCase'],
+        format: ['strictCamelCase', 'StrictPascalCase'],
       },
       {
         selector: 'property',
-        format: ['camelCase', 'PascalCase', 'snake_case', 'UPPER_CASE'],
+        format: [
+          'strictCamelCase',
+          'StrictPascalCase',
+          'snake_case',
+          'UPPER_CASE',
+        ],
         leadingUnderscore: 'allow',
       },
       {
         selector: 'typeLike',
-        format: ['PascalCase'],
+        format: ['StrictPascalCase'],
       },
       {
         selector: 'variable',
-        format: ['camelCase', 'PascalCase', 'UPPER_CASE'],
+        format: ['strictCamelCase', 'StrictPascalCase', 'UPPER_CASE'],
         leadingUnderscore: 'allow',
       },
       {
         selector: 'variable',
         types: ['boolean'],
-        format: ['PascalCase'],
+        format: ['StrictPascalCase'],
         leadingUnderscore: 'allow',
         prefix: ['are', 'is', 'should', 'has', 'can', 'did', 'will'],
       },
