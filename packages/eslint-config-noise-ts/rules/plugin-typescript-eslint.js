@@ -39,6 +39,9 @@ module.exports = {
       },
     ],
 
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/consistent-type-definitions.md
+    '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
+
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/explicit-function-return-type.md
     '@typescript-eslint/explicit-function-return-type': [
       'error',
