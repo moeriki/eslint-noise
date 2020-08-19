@@ -241,6 +241,10 @@ module.exports = {
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-reduce-type-parameter.md
     '@typescript-eslint/prefer-reduce-type-parameter': 'error',
 
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-string-starts-ends-with.md
+    'unicorn/prefer-starts-ends-with': 'off',
+    '@typescript-eslint/prefer-string-starts-ends-with': 'error',
+
     // Enforce template literal expressions to be of string type
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/restrict-template-expressions.md
     '@typescript-eslint/restrict-template-expressions': [
