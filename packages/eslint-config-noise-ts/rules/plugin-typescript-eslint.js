@@ -245,6 +245,9 @@ module.exports = {
     'unicorn/prefer-starts-ends-with': 'off',
     '@typescript-eslint/prefer-string-starts-ends-with': 'error',
 
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-ts-expect-error.md
+    'prefer-ts-expect-error': 'error',
+
     // Enforce template literal expressions to be of string type
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/restrict-template-expressions.md
     '@typescript-eslint/restrict-template-expressions': [
