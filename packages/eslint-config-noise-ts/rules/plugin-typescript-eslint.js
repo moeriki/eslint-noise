@@ -202,7 +202,17 @@ module.exports = {
       { allowConstantLoopConditions: true },
     ],
 
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unsafe-assignment.md
     '@typescript-eslint/no-unsafe-assignment': 'error',
+
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unsafe-call.md
+    '@typescript-eslint/no-unsafe-call': 'error',
+
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unsafe-member-access.md
+    '@typescript-eslint/no-unsafe-member-access': 'error',
+
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unsafe-return.md
+    '@typescript-eslint/no-unsafe-return': 'error',
 
     '@typescript-eslint/no-var-requires': 'error',
 
