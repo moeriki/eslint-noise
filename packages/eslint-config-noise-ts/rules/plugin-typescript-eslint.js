@@ -124,7 +124,11 @@ module.exports = {
       },
     ],
 
-    '@typescript-eslint/no-empty-interface': 'error',
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-empty-interface.md
+    '@typescript-eslint/no-empty-interface': [
+      'error',
+      { allowSingleExtends: true },
+    ],
 
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-explicit-any.md
     '@typescript-eslint/no-explicit-any': 'warn',
