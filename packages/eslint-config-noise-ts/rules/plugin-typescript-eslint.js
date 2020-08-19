@@ -222,6 +222,9 @@ module.exports = {
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-enum-initializers.md
     '@typescript-eslint/prefer-enum-initializers': 'error',
 
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-function-type.md
+    '@typescript-eslint/prefer-function-type': 'error',
+
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-literal-enum-member.md
     '@typescript-eslint/prefer-literal-enum-member': 'error',
 
