@@ -3,8 +3,6 @@
 module.exports = {
   plugins: ['@typescript-eslint'],
   rules: {
-    // TypeScript's `noFallthroughCasesInSwitch` option is more robust
-    'default-case': 'off',
     // 'tsc' already handles this
     'no-dupe-class-members': 'off',
     'no-undef': 'off',
@@ -273,6 +271,10 @@ module.exports = {
       'error',
       { allowNumber: false, allowString: false },
     ],
+
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/switch-exhaustiveness-check.md
+    'default-case': 'off',
+    '@typescript-eslint/switch-exhaustiveness-check': 'error',
 
     '@typescript-eslint/triple-slash-reference': 'error',
   },
