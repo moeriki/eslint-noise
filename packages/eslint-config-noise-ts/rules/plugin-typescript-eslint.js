@@ -66,7 +66,13 @@ module.exports = {
       },
       {
         selector: 'variable',
+        modifier: 'const',
         format: ['strictCamelCase', 'StrictPascalCase', 'UPPER_CASE'],
+        leadingUnderscore: 'allow',
+      },
+      {
+        selector: 'variable',
+        format: ['strictCamelCase', 'StrictPascalCase'],
         leadingUnderscore: 'allow',
       },
       {
