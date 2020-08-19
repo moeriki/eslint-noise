@@ -39,11 +39,7 @@ module.exports = {
         leadingUnderscore: 'allow',
       },
       {
-        selector: 'class',
-        format: ['StrictPascalCase'],
-      },
-      {
-        selector: 'enumMember',
+        selector: ['class', 'enumMember', 'typeLike'],
         format: ['StrictPascalCase'],
       },
       {
@@ -59,10 +55,6 @@ module.exports = {
           'UPPER_CASE',
         ],
         leadingUnderscore: 'allow',
-      },
-      {
-        selector: 'typeLike',
-        format: ['StrictPascalCase'],
       },
       {
         selector: 'variable',
