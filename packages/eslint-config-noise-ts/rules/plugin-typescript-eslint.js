@@ -30,7 +30,14 @@ module.exports = {
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/ban-types.md
     '@typescript-eslint/ban-types': 'error',
 
-    '@typescript-eslint/consistent-type-assertions': 'warn',
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/consistent-type-assertions.md
+    '@typescript-eslint/consistent-type-assertions': [
+      'error',
+      {
+        assertionStyle: 'as',
+        objectLiteralTypeAssertions: 'allow-as-parameter',
+      },
+    ],
 
     '@typescript-eslint/explicit-function-return-type': 'error',
 
