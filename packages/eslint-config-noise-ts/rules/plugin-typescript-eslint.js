@@ -109,6 +109,9 @@ module.exports = {
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-base-to-string.md
     '@typescript-eslint/no-base-to-string': 'error',
 
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-confusing-non-null-assertion.md
+    '@typescript-eslint/no-confusing-non-null-assertion': 'error',
+
     'no-empty-function': 'off',
     '@typescript-eslint/no-empty-function': [
       'error',
