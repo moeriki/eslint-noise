@@ -39,7 +39,15 @@ module.exports = {
       },
     ],
 
-    '@typescript-eslint/explicit-function-return-type': 'error',
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/explicit-function-return-type.md
+    '@typescript-eslint/explicit-function-return-type': [
+      'error',
+      {
+        allowExpressions: true,
+        allowHigherOrderFunctions: true,
+        allowTypedFunctionExpressions: true,
+      },
+    ],
 
     // Enforces naming conventions for everything across a codebase
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/naming-convention.md
