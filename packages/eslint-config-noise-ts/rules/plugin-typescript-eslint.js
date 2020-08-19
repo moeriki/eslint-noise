@@ -16,12 +16,14 @@ module.exports = {
     'no-loss-of-precision': 'off',
     '@typescript-eslint/no-loss-of-precision': 'error',
 
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/adjacent-overload-signatures.md
     '@typescript-eslint/adjacent-overload-signatures': 'error',
 
     // Bans `// @ts-<directive>` comments from being used
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/ban-ts-comment.md
     '@typescript-eslint/ban-ts-comment': 'error',
 
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/ban-types.md
     '@typescript-eslint/ban-types': 'error',
 
     '@typescript-eslint/consistent-type-assertions': 'warn',
@@ -93,10 +95,13 @@ module.exports = {
 
     '@typescript-eslint/no-empty-interface': 'error',
 
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-explicit-any.md
     '@typescript-eslint/no-explicit-any': 'warn',
 
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-inferrable-types.md
     '@typescript-eslint/no-inferrable-types': 'error',
 
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-misused-new.md
     '@typescript-eslint/no-misused-new': 'error',
 
     '@typescript-eslint/no-namespace': 'error',
