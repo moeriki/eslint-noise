@@ -129,6 +129,8 @@ module.exports = {
         replacements: {
           // Allow args
           args: { arguments: false },
+          // Allow db
+          db: { database: false },
           // Allow Koa context
           ctx: { context: false },
           // Default it would rename "pkg" to "package_" because "package" is reserved.
