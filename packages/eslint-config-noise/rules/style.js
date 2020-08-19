@@ -95,8 +95,8 @@ module.exports = {
       'error',
       {
         allow: ['_id', '_', '__'],
-        allowAfterSuper: false,
-        allowAfterThis: false,
+        allowAfterSuper: true,
+        allowAfterThis: true,
         allowFunctionParams: true,
         enforceInMethodNames: true,
       },
