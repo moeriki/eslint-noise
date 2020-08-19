@@ -254,6 +254,12 @@ module.exports = {
       { ignoreStringArrays: true },
     ],
 
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/restrict-plus-operands.md
+    '@typescript-eslint/restrict-plus-operands': [
+      'error',
+      { checkCompoundAssignments: true },
+    ],
+
     // Enforce template literal expressions to be of string type
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/restrict-template-expressions.md
     '@typescript-eslint/restrict-template-expressions': [
