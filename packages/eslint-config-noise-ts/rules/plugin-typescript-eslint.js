@@ -136,6 +136,8 @@ module.exports = {
 
     '@typescript-eslint/no-var-requires': 'error',
 
+    '@typescript-eslint/prefer-enum-initializers': 'error',
+
     '@typescript-eslint/prefer-namespace-keyword': 'error',
 
     '@typescript-eslint/prefer-nullish-coalescing': 'error',
