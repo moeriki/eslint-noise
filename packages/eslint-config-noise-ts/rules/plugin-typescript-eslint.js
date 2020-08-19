@@ -52,6 +52,9 @@ module.exports = {
       },
     ],
 
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/method-signature-style.md
+    '@typescript-eslint/method-signature-style': ['error', 'property'],
+
     // Enforces naming conventions for everything across a codebase
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/naming-convention.md
     camelcase: 'off',
