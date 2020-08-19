@@ -168,7 +168,8 @@ module.exports = {
       { allowDeclarations: false, allowDefinitionFiles: false },
     ],
 
-    '@typescript-eslint/no-non-null-assertion': 'warn',
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-non-null-assertion.md
+    '@typescript-eslint/no-non-null-assertion': 'error',
 
     // Disallows using a non-null assertion after an optional chain expression
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-non-null-asserted-optional-chain.md
