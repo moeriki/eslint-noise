@@ -162,7 +162,11 @@ module.exports = {
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-misused-new.md
     '@typescript-eslint/no-misused-new': 'error',
 
-    '@typescript-eslint/no-namespace': 'error',
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-namespace.md
+    '@typescript-eslint/no-namespace': [
+      'error',
+      { allowDeclarations: false, allowDefinitionFiles: false },
+    ],
 
     '@typescript-eslint/no-non-null-assertion': 'warn',
 
