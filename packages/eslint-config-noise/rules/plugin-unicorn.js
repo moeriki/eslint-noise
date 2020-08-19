@@ -127,7 +127,7 @@ module.exports = {
       'error',
       {
         replacements: {
-          // Allow Koa context
+          // Allow args
           args: { arguments: false },
           // Allow Koa context
           ctx: { context: false },
