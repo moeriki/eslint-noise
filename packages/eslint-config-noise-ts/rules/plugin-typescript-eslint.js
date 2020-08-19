@@ -88,7 +88,16 @@ module.exports = {
     '@typescript-eslint/no-array-constructor': 'error',
 
     'no-empty-function': 'off',
-    '@typescript-eslint/no-empty-function': 'error',
+    '@typescript-eslint/no-empty-function': [
+      'error',
+      {
+        allow: [
+          'private-constructors',
+          'protected-constructors',
+          'decoratedFunctions',
+        ],
+      },
+    ],
 
     '@typescript-eslint/no-empty-interface': 'error',
 
