@@ -30,7 +30,7 @@
     "style"
   ],
   "peerDependencies": {
-    "eslint": "^7.5",
+    "eslint": "^7.7",
     "eslint-config-noise": "<1.0"
   },
   "dependencies": {
