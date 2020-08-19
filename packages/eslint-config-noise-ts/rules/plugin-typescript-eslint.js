@@ -269,7 +269,10 @@ module.exports = {
 
     // Restricts the types allowed in boolean expressions
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/strict-boolean-expressions.md
-    '@typescript-eslint/strict-boolean-expressions': 'error',
+    '@typescript-eslint/strict-boolean-expressions': [
+      'error',
+      { allowNumber: false, allowString: false },
+    ],
 
     '@typescript-eslint/triple-slash-reference': 'error',
   },
