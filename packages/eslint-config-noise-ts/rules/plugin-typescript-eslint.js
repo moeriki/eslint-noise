@@ -216,6 +216,9 @@ module.exports = {
 
     '@typescript-eslint/no-var-requires': 'error',
 
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-as-const.md
+    '@typescript-eslint/prefer-as-const': 'error',
+
     '@typescript-eslint/prefer-enum-initializers': 'error',
 
     '@typescript-eslint/prefer-namespace-keyword': 'error',
