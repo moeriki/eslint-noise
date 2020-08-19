@@ -11,11 +11,6 @@ module.exports = {
 
     // plugin rules
 
-    // Disallow literal numbers that lose precision
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-loss-of-precision.md
-    'no-loss-of-precision': 'off',
-    '@typescript-eslint/no-loss-of-precision': 'error',
-
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/adjacent-overload-signatures.md
     '@typescript-eslint/adjacent-overload-signatures': 'error',
 
@@ -100,6 +95,11 @@ module.exports = {
 
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-inferrable-types.md
     '@typescript-eslint/no-inferrable-types': 'error',
+
+    // Disallow literal numbers that lose precision
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-loss-of-precision.md
+    'no-loss-of-precision': 'off',
+    '@typescript-eslint/no-loss-of-precision': 'error',
 
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-misused-new.md
     '@typescript-eslint/no-misused-new': 'error',
