@@ -134,6 +134,8 @@ module.exports = {
       { allowConstantLoopConditions: true },
     ],
 
+    '@typescript-eslint/no-unsafe-assignment': 'error',
+
     '@typescript-eslint/no-var-requires': 'error',
 
     '@typescript-eslint/prefer-enum-initializers': 'error',
