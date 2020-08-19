@@ -106,6 +106,9 @@ module.exports = {
     'no-array-constructor': 'off',
     '@typescript-eslint/no-array-constructor': 'error',
 
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-base-to-string.md
+    '@typescript-eslint/no-base-to-string': 'error',
+
     'no-empty-function': 'off',
     '@typescript-eslint/no-empty-function': [
       'error',
