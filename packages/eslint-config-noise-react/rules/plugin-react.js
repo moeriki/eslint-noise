@@ -327,15 +327,6 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md
     'react/react-in-jsx-scope': 'error',
 
-    // Enforce a defaultProps definition for every prop that is not a required prop
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-default-props.md
-    'react/require-default-props': [
-      'error',
-      {
-        forbidDefaultForRequired: true,
-      },
-    ],
-
     // require a shouldComponentUpdate method, or PureRenderMixin
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-optimization.md
     'react/require-optimization': ['off', { allowDecorators: [] }],
