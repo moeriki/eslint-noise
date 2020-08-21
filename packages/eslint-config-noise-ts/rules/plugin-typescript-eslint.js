@@ -13,7 +13,7 @@ module.exports = {
     '@typescript-eslint/adjacent-overload-signatures': 'error',
 
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/array-type.md
-    '@typescript-eslint/array-type': ['error', 'array-simple'],
+    '@typescript-eslint/array-type': ['error', { default: 'array-simple' }],
 
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/await-thenable.md
     '@typescript-eslint/await-thenable': 'error',
@@ -83,7 +83,7 @@ module.exports = {
       },
       {
         selector: 'variable',
-        modifier: 'const',
+        modifiers: ['const'],
         format: ['strictCamelCase', 'StrictPascalCase', 'UPPER_CASE'],
         leadingUnderscore: 'allow',
       },
@@ -247,7 +247,7 @@ module.exports = {
     '@typescript-eslint/prefer-string-starts-ends-with': 'error',
 
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-ts-expect-error.md
-    'prefer-ts-expect-error': 'error',
+    '@typescript-eslint/prefer-ts-expect-error': 'error',
 
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/require-array-sort-compare.md
     '@typescript-eslint/require-array-sort-compare': [
