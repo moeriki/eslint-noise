@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-noise",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "license": "MIT",
   "repository": {
     "url": "https://github.com/Moeriki/eslint-noise"
@@ -22,7 +22,7 @@
   "dependencies": {
     "confusing-browser-globals": "^1.0.9",
     "eslint-config-prettier": "^6.11.0",
-    "eslint-noise-utils": "^0.5.0",
+    "eslint-noise-utils": "^0.6.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-promise": "^4.2.0",
