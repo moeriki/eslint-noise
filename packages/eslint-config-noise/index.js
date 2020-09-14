@@ -14,7 +14,7 @@ module.exports = {
     ].map(require.resolve),
     'plugin:prettier/recommended',
   ],
-  env: { commonjs: true, es2020: true },
+  env: { commonjs: true, es2021: true },
   parserOptions: { ecmaVersion: 2020, sourceType: 'module' },
   reportUnusedDisableDirectives: true,
   rules: {
