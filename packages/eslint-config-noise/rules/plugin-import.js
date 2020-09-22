@@ -109,14 +109,17 @@ module.exports = {
       'error',
       {
         allow: [
+          '**/*.{css,sass,scss,less}',
           '*/cjs',
           '*/es{m,}',
           '*/fp',
           '*/register',
           '*/testing',
+          '@storybook/*/types-*',
           'eslint-config-*/rules',
           'firebase/{analytics,app,auth,database,firestore}',
           'lodash/**',
+          'next/{amp,app,head,link,router}',
           'uuid/v?',
         ],
       },
