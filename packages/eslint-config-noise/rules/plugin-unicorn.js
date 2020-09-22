@@ -42,6 +42,10 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/import-index.md
     'unicorn/import-index': 'error',
 
+    // Enforce specific import styles per module
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/import-style.md
+    'unicorn/import-style': 'error',
+
     // Enforce the use of `new` for all builtins, except `String`, `Number` and Bool`ean
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/new-for-builtins.md
     'unicorn/new-for-builtins': 'error',
