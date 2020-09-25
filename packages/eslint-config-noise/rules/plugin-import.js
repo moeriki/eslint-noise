@@ -110,6 +110,7 @@ module.exports = {
       {
         allow: [
           '**/*.{css,sass,scss,less}',
+          '**/*.{gif,jpg,jpeg,png,svg,webp}',
           '*/cjs',
           '*/es{m,}',
           '*/fp',
