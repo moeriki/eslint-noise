@@ -120,7 +120,7 @@ module.exports = {
           'eslint-config-*/rules',
           'firebase/{analytics,app,auth,database,firestore}',
           'lodash/**',
-          'next/{amp,app,head,link,router}',
+          'next/{amp,app,document,head,link,router}',
           'uuid/v?',
         ],
       },
