@@ -63,8 +63,12 @@ module.exports = {
         format: ['PascalCase'],
       },
       {
-        selector: ['class', 'enumMember'],
+        selector: ['class'],
         format: ['StrictPascalCase'],
+      },
+      {
+        selector: ['enumMember'],
+        format: ['StrictPascalCase', 'UPPER_CASE'],
       },
       {
         selector: 'function',
