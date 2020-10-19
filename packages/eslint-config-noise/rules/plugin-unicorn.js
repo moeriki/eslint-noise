@@ -82,6 +82,11 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-zero-fractions.md
     'unicorn/no-zero-fractions': 'error',
 
+    // TODO [engine:node@>=12] enable
+    // Enforce the style of numeric separators by correctly grouping digits
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/numeric-separators-style.md
+    // 'unicorn/numeric-separators-style': 'error',
+
     // Prefer `.find(…)` over the first element from `.filter(…)`
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-find.md
     'unicorn/prefer-array-find': 'error',
@@ -93,6 +98,10 @@ module.exports = {
     // Prefer `.includes()` over `.indexOf()` when checking for existence or non-existence
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-includes.md
     'unicorn/prefer-includes': 'error',
+
+    // Enforce the use of `Math.trunc` instead of bitwise operators
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-math-trunc.md
+    'unicorn/prefer-math-trunc': 'error',
 
     // Prefer negative index over `.length - index` for `{String,Array,TypedArray}#slice()` and `Array#splice()`
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-negative-index.md
