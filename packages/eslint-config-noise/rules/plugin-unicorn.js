@@ -205,18 +205,6 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/better-regex.md
     'unicorn/better-regex': 'error',
 
-    // Enforce better string content
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/string-content.md
-    'unicorn/string-content': [
-      'error',
-      {
-        patterns: {
-          "'": '’',
-          '->': '->',
-        },
-      },
-    ],
-
     // Require new when throwing an error
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/throw-new-error.md
     'unicorn/throw-new-error': 'error',
