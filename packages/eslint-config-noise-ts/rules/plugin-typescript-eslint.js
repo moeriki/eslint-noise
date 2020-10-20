@@ -40,6 +40,10 @@ module.exports = {
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/consistent-type-definitions.md
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
 
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/dot-notation.md
+    'dot-notation': 'off',
+    '@typescript-eslint/dot-notation': ['error', { allowKeywords: true }],
+
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/explicit-function-return-type.md
     '@typescript-eslint/explicit-function-return-type': [
       'error',
@@ -133,7 +137,14 @@ module.exports = {
     '@typescript-eslint/no-inferrable-types': 'error',
 
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-invalid-void-type.md
-    '@typescript-eslint/no-invalid-void-type': 'error',
+    '@typescript-eslint/no-invalid-void-type': [
+      'error',
+      { allowAsThisParameter: true },
+    ],
+
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-loop-func.md
+    'no-loop-func': 'off',
+    '@typescript-eslint/no-loop-func': 'error',
 
     // Disallow literal numbers that lose precision
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-loss-of-precision.md
@@ -161,6 +172,17 @@ module.exports = {
     // Disallows using a non-null assertion after an optional chain expression
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-non-null-asserted-optional-chain.md
     '@typescript-eslint/no-non-null-asserted-optional-chain': 'error',
+
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-redeclare.md
+    'no-redeclare': 'off',
+    '@typescript-eslint/no-redeclare': [
+      'error',
+      { ignoreDeclarationMerge: true },
+    ],
+
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-shadow.md
+    'no-shadow': 'off',
+    '@typescript-eslint/no-shadow': ['error', { ignoreTypeValueShadow: true }],
 
     '@typescript-eslint/no-this-alias': 'error',
 

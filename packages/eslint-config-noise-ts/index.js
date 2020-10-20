@@ -11,6 +11,7 @@ module.exports = {
     project: 'tsconfig.json',
     sourceType: 'module',
     // typescript-eslint parser specific options
+    EXPERIMENTAL_useSourceOfProjectReferenceRedirect: true,
     warnOnUnsupportedTypeScriptVersion: true,
   },
   rules: {
