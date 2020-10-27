@@ -188,7 +188,7 @@ module.exports = {
           prev: { previous: true },
           prod: { product: true, production: true },
           prop: { property: true },
-          props: { properties: true },
+          // props: { properties: true },
           ref: { reference: true },
           refs: { references: true },
           rel: { related: true, relationship: true, relative: true },
