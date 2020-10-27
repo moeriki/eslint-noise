@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-noise-node",
-  "version": "0.10.0",
+  "version": "0.10.1",
   "description": "A very Noise ESLint node config indeed",
   "license": "MIT",
   "repository": {
