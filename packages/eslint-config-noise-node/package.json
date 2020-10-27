@@ -29,7 +29,7 @@
     "style"
   ],
   "peerDependencies": {
-    "eslint": "^7.9"
+    "eslint": "^7.12"
   },
   "dependencies": {
     "eslint-plugin-node": "^11.1.0",
