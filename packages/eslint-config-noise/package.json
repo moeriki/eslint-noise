@@ -17,7 +17,7 @@
     "rules/*"
   ],
   "peerDependencies": {
-    "eslint": "^7.12"
+    "eslint": "^7.14"
   },
   "dependencies": {
     "confusing-browser-globals": "^1.0.9",
