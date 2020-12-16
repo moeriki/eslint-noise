@@ -238,7 +238,7 @@ module.exports = {
 
     // Prefers a non-null assertion over explicit type cast when possible
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/non-nullable-type-assertion-style.md
-    '@typescript-eslint/non-nullable-type-assertion-style': 'error',
+    '@typescript-eslint/non-nullable-type-assertion-style': 'off',
 
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-as-const.md
     '@typescript-eslint/prefer-as-const': 'error',
