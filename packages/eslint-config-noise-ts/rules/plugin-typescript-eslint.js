@@ -100,6 +100,13 @@ module.exports = {
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-confusing-non-null-assertion.md
     '@typescript-eslint/no-confusing-non-null-assertion': 'error',
 
+    // Requires expressions of type void to appear in statement position
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-confusing-void-expression.md
+    '@typescript-eslint/no-confusing-void-expression': [
+      'error',
+      { ignoreArrowShorthand: false, ignoreVoidOperator: true },
+    ],
+
     'no-empty-function': 'off',
     '@typescript-eslint/no-empty-function': [
       'error',
@@ -211,6 +218,10 @@ module.exports = {
       { allowConstantLoopConditions: true },
     ],
 
+    // Disallows unnecessary constraints on generic types
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unnecessary-type-constraint.md
+    '@typescript-eslint/no-unnecessary-type-constraint': 'error',
+
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unsafe-assignment.md
     '@typescript-eslint/no-unsafe-assignment': 'error',
 
@@ -224,6 +235,10 @@ module.exports = {
     '@typescript-eslint/no-unsafe-return': 'error',
 
     '@typescript-eslint/no-var-requires': 'error',
+
+    // Prefers a non-null assertion over explicit type cast when possible
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/non-nullable-type-assertion-style.md
+    '@typescript-eslint/non-nullable-type-assertion-style': 'error',
 
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-as-const.md
     '@typescript-eslint/prefer-as-const': 'error',
