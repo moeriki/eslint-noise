@@ -20,7 +20,7 @@
     "eslint": "^7.15"
   },
   "dependencies": {
-    "confusing-browser-globals": "^1.0.9",
+    "confusing-browser-globals": "^1.0.0",
     "eslint-config-prettier": "^7.0.0",
     "eslint-noise-utils": "^0.10.0",
     "eslint-plugin-import": "^2.22.0",
