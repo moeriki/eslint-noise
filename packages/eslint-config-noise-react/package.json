@@ -37,8 +37,8 @@
     "eslint-config-prettier": "^7.0.0",
     "eslint-noise-utils": "^0.10.0",
     "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jsx-a11y": "^6.3.0",
-    "eslint-plugin-react": "^7.20.0",
-    "eslint-plugin-react-hooks": "^4.1.0"
+    "eslint-plugin-jsx-a11y": "^6.4.0",
+    "eslint-plugin-react": "^7.21.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
   }
 }

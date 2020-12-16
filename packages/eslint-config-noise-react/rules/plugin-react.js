@@ -79,9 +79,12 @@ module.exports = {
       { children: 'never', props: 'never' },
     ],
 
-    // only .jsx files may have JSX
+    // Restrict file extensions that may contain JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
-    'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'] }],
+    'react/jsx-filename-extension': [
+      'error',
+      { allow: 'as-needed', extensions: ['.jsx', '.tsx'] },
+    ],
 
     // Enforce shorthand or standard form for React fragments
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-fragments.md
@@ -92,6 +95,7 @@ module.exports = {
     'react/jsx-handler-names': [
       'error',
       {
+        checkInlineFunction: false,
         checkLocalVariables: true,
         eventHandlerPrefix: 'handle',
         eventHandlerPropPrefix: 'on',
