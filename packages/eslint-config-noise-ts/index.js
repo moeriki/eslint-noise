@@ -15,6 +15,7 @@ module.exports = {
     warnOnUnsupportedTypeScriptVersion: true,
   },
   rules: {
+    'no-unsafe-optional-chaining': 'off',
     'valid-jsdoc': 'off',
   },
 };
