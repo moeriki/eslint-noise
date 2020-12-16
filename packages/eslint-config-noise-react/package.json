@@ -34,7 +34,7 @@
     "eslint-config-noise": "<1.0"
   },
   "dependencies": {
-    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-prettier": "^7.0.0",
     "eslint-noise-utils": "^0.10.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jsx-a11y": "^6.3.0",
