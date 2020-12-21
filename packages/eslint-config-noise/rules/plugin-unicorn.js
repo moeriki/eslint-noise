@@ -225,6 +225,8 @@ module.exports = {
           tit: { title: true },
           tmp: { temporary: true },
           val: { value: true },
+          var: { variable: true },
+          vars: { variables: true },
           ver: { version: true },
         },
       },
