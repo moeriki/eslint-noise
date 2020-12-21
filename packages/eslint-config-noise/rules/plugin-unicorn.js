@@ -131,6 +131,10 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-optional-catch-binding.md
     'unicorn/prefer-optional-catch-binding': 'error',
 
+    // Prefer `String#replaceAll()` over regex searches with the global flag
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-replace-all.md
+    'unicorn/prefer-replace-all': 'error',
+
     // Prefer the spread operator over Array.from()
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-spread.md
     'unicorn/prefer-spread': 'error',
