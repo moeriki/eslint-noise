@@ -70,6 +70,10 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-hex-escape.md
     'unicorn/no-hex-escape': 'error',
 
+    // Disallow `if` statements as the only statement in `if` blocks without `else`
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-lonely-if.md
+    'unicorn/no-lonely-if': 'error',
+
     // Disallow the use of objects as default parameters
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-object-as-default-parameter.md
     'unicorn/no-object-as-default-parameter': 'error',
@@ -98,6 +102,10 @@ module.exports = {
     // Prefer `.find(…)` over the first element from `.filter(…)`
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-find.md
     'unicorn/prefer-array-find': 'error',
+
+    // Prefer `Date.now()` to get the number of milliseconds since the Unix Epoch
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-date-now.md
+    'unicorn/prefer-date-now': 'error',
 
     // Prefer `.flatMap(…)` over `.map(…).flat()`
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-flat-map.md

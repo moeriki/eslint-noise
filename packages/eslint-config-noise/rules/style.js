@@ -69,7 +69,7 @@ module.exports = {
 
     // Disallow if as the only statement in an else block
     // https://eslint.org/docs/rules/no-lonely-if
-    'no-lonely-if': 'error',
+    'no-lonely-if': 'off', // NOTE: We use unicorn/no-lonely-if
 
     // Disallow use of chained assignment expressions
     // https://eslint.org/docs/rules/no-multi-assign
