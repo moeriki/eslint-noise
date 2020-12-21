@@ -7,7 +7,7 @@
   },
   "scripts": {
     "lint": "eslint --cache --fix packages/",
-    "test": "jest"
+    "test": "eslint packages/ && jest"
   },
   "devDependencies": {
     "eslint": "^7.15.0",
