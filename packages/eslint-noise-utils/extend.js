@@ -2,13 +2,13 @@
 
 const { isPlainObject, mergeWith } = require('lodash/fp');
 
-/* eslint-disable-next-line consistent-return */
 const mergeObject = mergeWith((sourceValue, objectValue, key, object) => {
+  /* eslint-disable consistent-return */
   if (objectValue === undefined) {
     /* eslint-disable no-param-reassign */
     // Allow unsetting properties with undefined
     object[key] = undefined;
-    return undefined;
+    return;
   }
   if (Array.isArray(sourceValue) && Array.isArray(objectValue)) {
     // If both array, can be merged

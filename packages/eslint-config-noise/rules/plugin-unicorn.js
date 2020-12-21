@@ -82,6 +82,10 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-unused-properties.md
     'unicorn/no-unused-properties': 'error',
 
+    // Disallow useless `undefined`
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-useless-undefined.md
+    'unicorn/no-useless-undefined': 'error',
+
     // Disallow number literals with zero fractions or dangling dots
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-zero-fractions.md
     'unicorn/no-zero-fractions': 'error',
