@@ -4,6 +4,8 @@
       "message": "🔖 publish"
     }
   },
-  "packages": ["packages/*"],
-  "version": "0.11.1"
+  "packages": [
+    "packages/*"
+  ],
+  "version": "0.12.0"
 }
