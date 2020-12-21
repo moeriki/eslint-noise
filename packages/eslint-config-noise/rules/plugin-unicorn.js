@@ -3,6 +3,10 @@
 module.exports = {
   plugins: ['unicorn'],
   rules: {
+    // Enforce the use of regex shorthands to improve readability
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/better-regex.md
+    'unicorn/better-regex': 'error',
+
     // Enforce a specific parameter name in catch clauses
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/catch-error-name.md
     'unicorn/catch-error-name': 'error',
@@ -209,10 +213,6 @@ module.exports = {
         },
       },
     ],
-
-    // Enforce the use of regex shorthands to improve readability
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/better-regex.md
-    'unicorn/better-regex': 'error',
 
     // Require new when throwing an error
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/throw-new-error.md
