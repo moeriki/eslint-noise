@@ -59,8 +59,8 @@ module.exports = {
     'unicorn/no-abusive-eslint-disable': 'error',
 
     // Require Array.isArray() instead of instanceof Array
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-array-instanceof.md
-    'unicorn/no-array-instanceof': 'error',
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-instanceof-array.md
+    'unicorn/no-instanceof-array': 'error',
 
     // Do not use leading/trailing space between console.log parameters
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-console-spaces.md
@@ -103,13 +103,21 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-find.md
     'unicorn/prefer-array-find': 'error',
 
+    // Prefer `.flatMap(…)` over `.map(…).flat()`
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-flat-map.md
+    'unicorn/prefer-array-flat-map': 'error',
+
+    // Prefer `.some(…)` over `.find(…)`
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-some.md
+    'unicorn/prefer-array-some': 'error',
+
+    // Prefer default parameters over reassignment
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-default-parameters.md
+    'unicorn/prefer-default-parameters': 'error',
+
     // Prefer `Date.now()` to get the number of milliseconds since the Unix Epoch
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-date-now.md
     'unicorn/prefer-date-now': 'error',
-
-    // Prefer `.flatMap(…)` over `.map(…).flat()`
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-flat-map.md
-    'unicorn/prefer-flat-map': 'error',
 
     // Prefer `.includes()` over `.indexOf()` when checking for existence or non-existence
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-includes.md
@@ -131,25 +139,25 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-optional-catch-binding.md
     'unicorn/prefer-optional-catch-binding': 'error',
 
-    // Prefer `String#replaceAll()` over regex searches with the global flag
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-replace-all.md
-    'unicorn/prefer-replace-all': 'error',
-
     // Prefer the spread operator over Array.from()
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-spread.md
     'unicorn/prefer-spread': 'error',
 
-    // Prefer `String#startsWith()` & `String#endsWith()` over more complex alternatives
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-starts-ends-with.md
-    'unicorn/prefer-starts-ends-with': 'error',
+    // Prefer `String#replaceAll()` over regex searches with the global flag
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-replace-all.md
+    'unicorn/prefer-string-replace-all': 'error',
 
     // Prefer `String#slice()` over `String#substr()` and `String#substring()`
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-slice.md
     'unicorn/prefer-string-slice': 'error',
 
+    // Prefer `String#startsWith()` & `String#endsWith()` over more complex alternatives
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-starts-ends-with.md
+    'unicorn/prefer-string-starts-ends-with': 'error',
+
     // Prefer `String#trimStart()` / `String#trimEnd()` over `String#trimLeft()` / `String#trimRight()`
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-trim-start-end.md
-    'unicorn/prefer-trim-start-end': 'error',
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-trim-start-end.md
+    'unicorn/prefer-string-trim-start-end': 'error',
 
     // Enforce throwing `TypeError` in type checking conditions
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-type-error.md

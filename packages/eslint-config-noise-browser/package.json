@@ -32,6 +32,6 @@
     "eslint": "^7.15"
   },
   "dependencies": {
-    "eslint-plugin-unicorn": "^24.0.0"
+    "eslint-plugin-unicorn": "^25.0.0"
   }
 }
