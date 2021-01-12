@@ -56,9 +56,6 @@ module.exports = {
       },
     ],
 
-    // Disallow use of the Array constructor
-    'no-array-constructor': 'error',
-
     // Disallow use of bitwise operators
     // https://eslint.org/docs/rules/no-bitwise
     'no-bitwise': 'error',

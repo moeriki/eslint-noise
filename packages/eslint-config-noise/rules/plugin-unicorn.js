@@ -11,6 +11,10 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/catch-error-name.md
     'unicorn/catch-error-name': 'error',
 
+    // Use destructured variables over properties
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/consistent-destructuring.md
+    'unicorn/consistent-destructuring': 'error',
+
     // Move function definitions to the highest possible scope
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/consistent-function-scoping.md
     'unicorn/consistent-function-scoping': 'error',
@@ -57,6 +61,10 @@ module.exports = {
     // Enforce specifying rules to disable in eslint-disable comments
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-abusive-eslint-disable.md
     'unicorn/no-abusive-eslint-disable': 'error',
+
+    // Disallow `new Array()`
+    'no-array-constructor': 'off',
+    'unicorn/no-new-array': 'error',
 
     // Require Array.isArray() instead of instanceof Array
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-instanceof-array.md
@@ -107,6 +115,10 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-flat-map.md
     'unicorn/prefer-array-flat-map': 'error',
 
+    // Prefer `Array#indexOf()` over `Array#findIndex()` when looking for the index of an item
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-index-of.md
+    'unicorn/prefer-array-index-of': 'error',
+
     // Prefer `.some(…)` over `.find(…)`
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-some.md
     'unicorn/prefer-array-some': 'error',
@@ -138,6 +150,10 @@ module.exports = {
     // Prefer omitting the `catch` binding parameter
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-optional-catch-binding.md
     'unicorn/prefer-optional-catch-binding': 'error',
+
+    // Prefer `RegExp#test()` over `String#match()` and `RegExp#exec()`
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-regexp-test.md
+    'unicorn/prefer-regexp-test': 'error',
 
     // Prefer the spread operator over Array.from()
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-spread.md

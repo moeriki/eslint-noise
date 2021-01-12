@@ -33,6 +33,6 @@
   },
   "dependencies": {
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-unicorn": "^25.0.0"
+    "eslint-plugin-unicorn": "^26.0.0"
   }
 }
