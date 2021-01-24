@@ -62,6 +62,10 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-abusive-eslint-disable.md
     'unicorn/no-abusive-eslint-disable': 'error',
 
+    // Enforce combining multiple `Array#push()` into one call
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-push-push.md
+    'unicorn/no-array-push-push': 'error',
+
     // Disallow `new Array()`
     'no-array-constructor': 'off',
     'unicorn/no-new-array': 'error',
@@ -86,6 +90,10 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-object-as-default-parameter.md
     'unicorn/no-object-as-default-parameter': 'error',
 
+    // Disallow assigning `this` to a variable
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-this-assignment.md
+    'unicorn/no-this-assignment': 'error',
+
     // Disallow unreadable array destructuring
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-unreadable-array-destructuring.md
     'unicorn/no-unreadable-array-destructuring': 'error',
@@ -102,10 +110,12 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-zero-fractions.md
     'unicorn/no-zero-fractions': 'error',
 
-    // TODO [engine:node@>=12] enable
     // Enforce the style of numeric separators by correctly grouping digits
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/numeric-separators-style.md
-    // 'unicorn/numeric-separators-style': 'error',
+    'unicorn/numeric-separators-style': [
+      'error',
+      { onlyIfContainsSeparator: true },
+    ],
 
     // Prefer `.find(…)` over the first element from `.filter(…)`
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-find.md
@@ -174,6 +184,10 @@ module.exports = {
     // Prefer `String#trimStart()` / `String#trimEnd()` over `String#trimLeft()` / `String#trimRight()`
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-trim-start-end.md
     'unicorn/prefer-string-trim-start-end': 'error',
+
+    // Prefer ternary expressions over simple `if-else` statements
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-ternary.md#options
+    'unicorn/prefer-ternary': ['error', 'only-single-line'],
 
     // Enforce throwing `TypeError` in type checking conditions
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-type-error.md

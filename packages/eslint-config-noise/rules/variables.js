@@ -8,9 +8,12 @@ module.exports = {
     'no-delete-var': 'error',
 
     // Disallow specific globals
-    'no-restricted-globals': ['error', 'isFinite', 'isNaN'].concat(
-      confusingBrowserGlobals,
-    ),
+    'no-restricted-globals': [
+      'error',
+      'isFinite',
+      'isNaN',
+      ...confusingBrowserGlobals,
+    ],
 
     // Disallow declaration of variables already declared in the outer scope
     'no-shadow': 'error',

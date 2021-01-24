@@ -13,9 +13,6 @@ module.exports = {
       },
     ],
 
-    // Enforces consistent naming when capturing the current execution context
-    'consistent-this': ['error', 'DEPRECATED_RENAMED_THIS'],
-
     // Requires function names to match the name of the variable or property to
     // which they are assigned
     // https://eslint.org/docs/rules/func-name-matching
