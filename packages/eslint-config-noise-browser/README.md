@@ -16,7 +16,7 @@ npx install-peerdeps --dev eslint-config-noise
 
 There are many ways to [configure ESLint in the official documentation](https://eslint.org/docs/user-guide/configuring).
 
-_.eslintrc_
+`.eslintrc`
 
 ```json
 {
@@ -33,7 +33,7 @@ Some rules could be unnecessary or annoying in certain scenarios. These variants
 
 Need to support IE11.
 
-_.eslintrc_
+`.eslintrc`
 
 ```json
 {

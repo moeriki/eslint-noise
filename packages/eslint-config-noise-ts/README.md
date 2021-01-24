@@ -23,7 +23,7 @@ npx install-peerdeps --dev eslint-config-noise-ts
 
 There are many ways to [configure ESLint in the official documentation](https://eslint.org/docs/user-guide/configuring).
 
-_.eslintrc_
+`.eslintrc`
 
 ```json
 {

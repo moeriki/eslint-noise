@@ -26,7 +26,7 @@ npx install-peerdeps --dev eslint-config-noise-react
 
 There are many ways to [configure ESLint in the official documentation](https://eslint.org/docs/user-guide/configuring).
 
-_.eslintrc_
+`.eslintrc`
 
 ```json
 { "extends": ["eslint-config-noise-node"], "root": true };
@@ -38,7 +38,7 @@ Some rules depend on proper configuration. Make sure to configure these when you
 
 Eg. with Gatsby and Next.js you'd use a `Link` component instead of an `a` element.
 
-_.eslintrc.js_
+`.eslintrc`
 
 ```js
 const { extendRules } = require('eslint-noise-utils');

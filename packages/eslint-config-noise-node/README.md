@@ -23,7 +23,7 @@ npx install-peerdeps --dev eslint-config-noise-node
 
 There are many ways to [configure ESLint in the official documentation](https://eslint.org/docs/user-guide/configuring).
 
-_.eslintrc_
+`.eslintrc`
 
 ```json
 { "extends": ["noise", "noise-node"], "root": true }
@@ -37,7 +37,7 @@ Some rules could be unnecessary or annoying in certain scenarios. These variants
 
 Some rules make no sense when using Node.js v8. Apply this variant to fix this.
 
-_.eslintrc_
+`.eslintrc`
 
 ```json
 {
@@ -50,7 +50,7 @@ _.eslintrc_
 
 Some rules may be annoying when writing scripts, eg. in your `scripts/` directory. You can improve this experience by extending a the _scripts_ preset.
 
-_.eslintrc_
+`.eslintrc`
 
 ```json
 {
