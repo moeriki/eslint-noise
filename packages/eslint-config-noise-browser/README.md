@@ -24,20 +24,3 @@ There are many ways to [configure ESLint in the official documentation](https://
   "root": true
 };
 ```
-
-### Variants
-
-Some rules could be unnecessary or annoying in certain scenarios. These variants can be applied on top of the base config.
-
-#### IE11
-
-Need to support IE11.
-
-`.eslintrc`
-
-```json
-{
-  "extends": ["noise", "noise-browser", "noise-browser/ie11"],
-  "root": true
-}
-```
