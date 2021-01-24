@@ -10,7 +10,6 @@ An opinionated [ESLint](https://github.com/eslint/eslint) config based on the [A
 Includes these plugins.
 
 - [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
-- [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)
 - [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise)
 - [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
 - [eslint-plugin-react-hooks](https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks)

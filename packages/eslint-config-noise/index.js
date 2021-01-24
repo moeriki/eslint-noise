@@ -12,16 +12,11 @@ module.exports = {
       './rules/style',
       './rules/variables',
     ].map(require.resolve),
-    'plugin:prettier/recommended',
   ],
   env: { commonjs: true, es2021: true },
   parserOptions: { ecmaVersion: 2021, sourceType: 'module' },
   reportUnusedDisableDirectives: true,
   rules: {
-    'prettier/prettier': [
-      'warn',
-      { arrowParens: 'always', singleQuote: true, trailingComma: 'all' },
-    ],
     strict: ['error', 'global'],
   },
 };
