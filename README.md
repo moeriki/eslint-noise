@@ -3,13 +3,9 @@
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-An opinionated [ESLint](https://github.com/eslint/eslint) config based on the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript).
+## Documentation
 
-Can be used for **Node.js** development.
-
-## Why
-
-I used to use the [Airbnb base config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base), but found myself disabling the same rules, adding the same plugins, over and over again.
+See the [eslint-config-noise package](./packages/eslint-config-noise/README.md).
 
 ## Packages
 

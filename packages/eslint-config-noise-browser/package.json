@@ -29,9 +29,6 @@
     "style"
   ],
   "peerDependencies": {
-    "eslint": "^7.15"
-  },
-  "dependencies": {
-    "eslint-plugin-unicorn": "^27.0.0"
+    "eslint-config-noise": "<1.0"
   }
 }
