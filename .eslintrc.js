@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  extends: ['noise', 'noise-node'],
+  extends: ['noise', 'noise/node'],
   overrides: [
     {
       files: ['*.test.js'],

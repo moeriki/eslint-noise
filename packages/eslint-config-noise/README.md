@@ -1,7 +1,4 @@
-# ESLint Config Noise
-
-[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+# ESLint config noise
 
 An opinionated [ESLint](https://github.com/eslint/eslint) config. There are many ways to [configure ESLint in the official documentation](https://eslint.org/docs/user-guide/configuring).
 
@@ -42,7 +39,7 @@ npm install --save-dev eslint@^7.15 eslint-config-noise eslint-plugin-import@^2.
 Make sure you have install the Noise base config.
 
 ```sh
-npm install --save-dev eslint-config-noise-node eslint-plugin-node@^11.1
+npm install --save-dev eslint-plugin-node@^11.1
 ```
 
 #### Configure
@@ -52,7 +49,7 @@ npm install --save-dev eslint-config-noise-node eslint-plugin-node@^11.1
 `.eslintrc`
 
 ```json
-{ "extends": ["noise", "noise-node"] }
+{ "extends": ["noise", "noise/node"] }
 ```
 
 ##### Scripts
@@ -60,7 +57,7 @@ npm install --save-dev eslint-config-noise-node eslint-plugin-node@^11.1
 `.eslintrc`
 
 ```json
-{ "extends": ["noise", "noise-node/script"] }
+{ "extends": ["noise", "noise/node/script"] }
 ```
 
 ### React
@@ -76,7 +73,7 @@ npm install --save-dev eslint-config-noise-node eslint-plugin-node@^11.1
 Make sure you have install the Noise base config.
 
 ```sh
-npm install --save-dev eslint-config-noise-react eslint-plugin-jsx-a11y@^6.4 eslint-plugin-react@^7.21 eslint-plugin-react-hooks@^4.2
+npm install --save-dev eslint-plugin-jsx-a11y@^6.4 eslint-plugin-react@^7.21 eslint-plugin-react-hooks@^4.2
 ```
 
 #### Configure
@@ -86,7 +83,7 @@ npm install --save-dev eslint-config-noise-react eslint-plugin-jsx-a11y@^6.4 esl
 `.eslintrc`
 
 ```json
-{ "extends": ["noise", "noise-browser", "noise-react"] }
+{ "extends": ["noise", "noise/browser", "noise/react"] }
 ```
 
 ### TypeScript
@@ -100,7 +97,7 @@ npm install --save-dev eslint-config-noise-react eslint-plugin-jsx-a11y@^6.4 esl
 Make sure you have install the Noise base config.
 
 ```sh
-npm install --save-dev eslint-config-noise-ts @typescript-eslint/eslint-plugin@^4.10 @typescript-eslint/parser@^4.10 eslint-import-resolver-typescript@^2.3
+npm install --save-dev @typescript-eslint/eslint-plugin@^4.10 @typescript-eslint/parser@^4.10 eslint-import-resolver-typescript@^2.3
 ```
 
 #### Configure
@@ -110,7 +107,7 @@ npm install --save-dev eslint-config-noise-ts @typescript-eslint/eslint-plugin@^
 `.eslintrc`
 
 ```json
-{ "extends": ["noise", "noise-ts"] }
+{ "extends": ["noise", "noise/typescript"] }
 ```
 
 ## Combining multiple extensions
@@ -120,7 +117,7 @@ You can combine multiple extensions by following the install step per extension 
 `.eslintrc`
 
 ```json
-{ "extends": ["noise", "noise-react", "noise-ts"] }
+{ "extends": ["noise", "noise/react", "noise/typescript"] }
 ```
 
 You can use the ESLint config overrides option to have a more structured configuration.
@@ -135,11 +132,11 @@ You can combine multiple extensions by following the install step per extension 
   "overrides": [
     {
       "files": ["server/**"],
-      "extends": ["noise-node", "noise-ts"]
+      "extends": ["noise/node", "noise/typescript"]
     },
     {
       "files": ["web-app/**"],
-      "extends": ["noise-react", "noise-ts"]
+      "extends": ["noise/react", "noise/typescript"]
     }
   ]
 }

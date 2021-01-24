@@ -3,14 +3,14 @@
 module.exports = {
   extends: [
     ...[
-      './rules/best-practices',
-      './rules/errors',
-      './rules/es6',
-      './rules/plugin-import',
-      './rules/plugin-promise',
-      './rules/plugin-unicorn',
-      './rules/style',
-      './rules/variables',
+      './base/best-practices',
+      './base/errors',
+      './base/es6',
+      './base/plugin-import',
+      './base/plugin-promise',
+      './base/plugin-unicorn',
+      './base/style',
+      './base/variables',
     ].map(require.resolve),
   ],
   env: { commonjs: true, es2021: true },

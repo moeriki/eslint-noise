@@ -6,15 +6,3 @@
 ## Documentation
 
 See the [eslint-config-noise package](./packages/eslint-config-noise/README.md).
-
-## Packages
-
-- [eslint-config-noise](./packages/eslint-config-noise/README.md)
-- [eslint-config-noise-browser](./packages/eslint-config-noise-browser/README.md)
-- [eslint-config-noise-node](./packages/eslint-config-noise-node/README.md)
-- [eslint-config-noise-ts](./packages/eslint-config-noise-ts/README.md)
-- [eslint-config-noise-react](./packages/eslint-config-noise-react/README.md)
-
-## Planned features
-
-- Browser / React packages
