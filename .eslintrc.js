@@ -4,7 +4,7 @@ module.exports = {
   extends: ['noise', 'noise/node'],
   overrides: [
     {
-      files: ['*.test.js'],
+      files: ['*.spec.js'],
       env: { jest: true },
     },
   ],
