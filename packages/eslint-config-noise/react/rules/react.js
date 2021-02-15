@@ -1,6 +1,6 @@
 'use strict';
 
-const baseStyle = require('../../base/style');
+const eslint = require('../../base/eslint');
 const { extendRules } = require('../../utils');
 
 module.exports = {
@@ -28,7 +28,7 @@ module.exports = {
         ],
       },
     ],
-    ...extendRules(baseStyle.rules, {
+    ...extendRules(eslint.rules, {
       'no-underscore-dangle': {
         allow: ['__REDUX_DEVTOOLS_EXTENSION_COMPOSE__'],
       },

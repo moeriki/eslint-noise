@@ -3,14 +3,10 @@
 module.exports = {
   extends: [
     ...[
-      './base/best-practices',
-      './base/errors',
-      './base/es6',
+      './base/eslint',
       './base/plugin-import',
       './base/plugin-promise',
       './base/plugin-unicorn',
-      './base/style',
-      './base/variables',
     ].map(require.resolve),
   ],
   env: { commonjs: true, es2021: true },
