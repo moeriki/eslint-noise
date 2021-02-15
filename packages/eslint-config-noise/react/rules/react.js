@@ -1,6 +1,6 @@
 'use strict';
 
-const { style: baseStyle } = require('../../base');
+const baseStyle = require('../../base/style');
 const { extendRules } = require('../../utils');
 
 module.exports = {
