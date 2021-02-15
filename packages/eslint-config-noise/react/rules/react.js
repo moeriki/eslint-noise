@@ -1,7 +1,7 @@
 'use strict';
 
 const eslint = require('../../base/rules/eslint');
-const { extendRules } = require('../../utils');
+const { extendRules } = require('../../src/extend');
 
 module.exports = {
   rules: {
