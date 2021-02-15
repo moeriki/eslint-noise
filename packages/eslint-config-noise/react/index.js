@@ -9,7 +9,6 @@ module.exports = {
       './rules/plugin-react-hooks',
       './rules/react',
     ].map(require.resolve),
-    'prettier/react',
   ],
   parserOptions: {
     ecmaFeatures: { jsx: true },
