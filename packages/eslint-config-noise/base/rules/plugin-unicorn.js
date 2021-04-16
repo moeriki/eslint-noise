@@ -62,6 +62,10 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-abusive-eslint-disable.md
     'unicorn/no-abusive-eslint-disable': 'error',
 
+    // Prefer `for…of` over `Array#forEach(…)`
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-for-each.md
+    'unicorn/no-array-for-each': 'error',
+
     // Enforce combining multiple `Array#push()` into one call
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-push-push.md
     'unicorn/no-array-push-push': 'error',
