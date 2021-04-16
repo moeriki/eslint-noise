@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = {
-  env: { browser: true },
-  extends: [...['./rules/plugin-unicorn'].map(require.resolve)],
-};
+const loosen = require('../src/loosen');
+const strict = require('./strict');
+
+return loosen(strict);
