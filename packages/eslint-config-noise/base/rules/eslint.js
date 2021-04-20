@@ -241,6 +241,7 @@ const bestPractices = {
       allowShortCircuit: false,
       allowTaggedTemplates: false,
       allowTernary: false,
+      enforceForJSX: true,
     },
   ],
 

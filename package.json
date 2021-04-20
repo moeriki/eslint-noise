@@ -10,7 +10,7 @@
     "test": "eslint packages/ && jest"
   },
   "devDependencies": {
-    "eslint": "^7.15.0",
+    "eslint": "^7.20.0",
     "eslint-plugin-import": "^2.22",
     "eslint-plugin-node": "^11.1",
     "eslint-plugin-promise": "^4.2",
