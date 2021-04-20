@@ -205,6 +205,10 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-type-error.md
     'unicorn/prefer-type-error': 'error',
 
+    // Prefer `switch` over multiple `else-if`
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-switch.md
+    'unicorn/prefer-switch': 'warn',
+
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prevent-abbreviations.md
     'unicorn/prevent-abbreviations': [
       'error',
