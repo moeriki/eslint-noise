@@ -73,7 +73,7 @@ npm install --save-dev eslint-plugin-node@^11.1
 Make sure you have install the Noise base config.
 
 ```sh
-npm install --save-dev eslint-plugin-jsx-a11y@^6.4 eslint-plugin-react@^7.21 eslint-plugin-react-hooks@^4.2
+npm install --save-dev eslint-plugin-jsx-a11y@^6.4 eslint-plugin-react@^7.23 eslint-plugin-react-hooks@^4.2
 ```
 
 #### Configure
