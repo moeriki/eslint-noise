@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "engines": {
-    "node": "^10 || ^12 || ^14"
+    "node": "^12 || ^14 || ^16"
   },
   "scripts": {
     "lint": "eslint --cache --fix packages/",
@@ -14,7 +14,7 @@
     "eslint-plugin-import": "^2.22",
     "eslint-plugin-node": "^11.1",
     "eslint-plugin-promise": "^4.2",
-    "eslint-plugin-unicorn": "^30.0",
+    "eslint-plugin-unicorn": "^32.0",
     "jest": "^26.6.3",
     "lerna": "^3.22.1",
     "prettier": "^2.2.1",

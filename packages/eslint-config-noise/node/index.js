@@ -76,5 +76,9 @@ module.exports = {
     // Disallow process.exit()
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-process-exit.md
     'unicorn/no-process-exit': 'error',
+
+    // Prefer using the `node:` protocol when importing Node.js builtin modules
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-node-protocol.md
+    // 'unicorn/prefer-node-protocol': 'error',
   },
 };

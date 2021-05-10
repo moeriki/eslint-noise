@@ -2,6 +2,10 @@
 
 module.exports = {
   rules: {
+    // Do not use `document.cookie` directly
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-document-cookie.md
+    'no-document-cookie': 'error',
+
     // Prefer `.addEventListener()` and `.removeEventListener()` over on-functions
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-add-event-listener.md
     'unicorn/prefer-add-event-listener': 'error',

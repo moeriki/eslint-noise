@@ -161,6 +161,10 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-math-trunc.md
     'unicorn/prefer-math-trunc': 'error',
 
+    // Prefer JavaScript modules (ESM) over CommonJS
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-module.md
+    // 'unicorn/prefer-module': 'error',
+
     // Prefer negative index over `.length - index` for `{String,Array,TypedArray}#slice()` and `Array#splice()`
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-negative-index.md
     'unicorn/prefer-negative-index': 'error',
