@@ -106,7 +106,7 @@ module.exports = {
     // Prevent importing the submodules of other modules
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-internal-modules.md
     'import/no-internal-modules': [
-      'error',
+      'off',
       {
         allow: [
           '**/*.{css,sass,scss,less}',
