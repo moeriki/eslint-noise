@@ -142,6 +142,10 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-default.md
     'import/no-named-default': 'error',
 
+    // Use this rule to prevent importing packages through relative paths.
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-relative-packages.md
+    'import/no-relative-packages': 'error',
+
     // Forbid a module from importing itself
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-self-import.md
     'import/no-self-import': 'error',
