@@ -17,7 +17,7 @@ module.exports = {
 
     // Move function definitions to the highest possible scope
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/consistent-function-scoping.md
-    'unicorn/consistent-function-scoping': 'error',
+    'unicorn/consistent-function-scoping': 'off',
 
     // Enforce correct Error subclassing
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/custom-error-definition.md
