@@ -17,6 +17,9 @@
     "**/*.js",
     "!**/*.test.js"
   ],
+  "peerDependencies": {
+    "eslint": "^7.30"
+  },
   "dependencies": {
     "confusing-browser-globals": "^1.0.0",
     "lodash": "^4.17.15"

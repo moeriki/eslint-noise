@@ -10,7 +10,7 @@ module.exports = {
     ].map(require.resolve),
   ],
   env: { commonjs: true, es2021: true },
-  parserOptions: { ecmaVersion: 2021, sourceType: 'module' },
+  parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
   reportUnusedDisableDirectives: true,
   rules: {
     strict: ['error', 'global'],
