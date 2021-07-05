@@ -66,6 +66,10 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-for-each.md
     'unicorn/no-array-for-each': 'error',
 
+    // Disallow using the `this` argument in array methods
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-method-this-argument.md
+    'unicorn/no-array-method-this-argument': 'error',
+
     // Enforce combining multiple `Array#push()` into one call
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-array-push-push.md
     'unicorn/no-array-push-push': 'error',
@@ -145,6 +149,10 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-array-some.md
     'unicorn/prefer-array-some': 'error',
 
+    // Prefer `.at()` method for index access and `String#charAt()`
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-at.md
+    'unicorn/prefer-at': 'error',
+
     // Prefer default parameters over reassignment
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-default-parameters.md
     'unicorn/prefer-default-parameters': 'error',
@@ -208,6 +216,11 @@ module.exports = {
     // Prefer ternary expressions over simple `if-else` statements
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-ternary.md#options
     'unicorn/prefer-ternary': ['error', 'only-single-line'],
+
+    // Prefer top-level await over top-level promises and async function calls
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-top-level-await.md
+    // TODO [engine:node@>=14.8] Enable rule
+    'unicorn/prefer-top-level-await': 'off',
 
     // Enforce throwing `TypeError` in type checking conditions
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-type-error.md
