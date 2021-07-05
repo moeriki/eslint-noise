@@ -177,6 +177,10 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-optional-catch-binding.md
     'unicorn/prefer-optional-catch-binding': 'error',
 
+    // Prefer borrowing methods from the prototype instead of methods from an instance
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-prototype-methods.md
+    'unicorn/prefer-prototype-methods': 'error',
+
     // Prefer `RegExp#test()` over `String#match()` and `RegExp#exec()`
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-regexp-test.md
     'unicorn/prefer-regexp-test': 'error',
@@ -289,6 +293,14 @@ module.exports = {
         },
       },
     ],
+
+    // Enforce using the separator argument with `Array#join()`
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-array-join-separator.md
+    'unicorn/require-array-join-separator': 'error',
+
+    // Enforce using the digits argument with `Number#toFixed()`
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-number-to-fixed-digits-argument.md
+    'unicorn/require-number-to-fixed-digits-argument': 'error',
 
     // Require new when throwing an error
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/throw-new-error.md
