@@ -6,6 +6,7 @@
     "node": "^16"
   },
   "scripts": {
+    "format": "prettier --write *.json packages/",
     "lint": "eslint --cache --fix packages/",
     "test": "eslint packages/ && jest"
   },
@@ -17,7 +18,7 @@
     "eslint-plugin-unicorn": "^34.0",
     "jest": "^27.0.6",
     "lerna": "^4.0.0",
-    "prettier": "^2.2.1",
+    "prettier": "^2.3.2",
     "prettier-plugin-package": "^1.3.0"
   },
   "workspaces": [
