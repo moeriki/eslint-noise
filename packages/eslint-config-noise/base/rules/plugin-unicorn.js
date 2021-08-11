@@ -227,7 +227,7 @@ module.exports = {
 
     // Prefer top-level await over top-level promises and async function calls
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-top-level-await.md
-    // TODO [engine:node@>=14.8] Enable rule
+    // TODO [eslint@>=8] Enable when ESLint 8 is released. It will add support for top-level `await`.
     'unicorn/prefer-top-level-await': 'off',
 
     // Enforce throwing `TypeError` in type checking conditions
