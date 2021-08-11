@@ -114,6 +114,14 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-unused-properties.md
     'unicorn/no-unused-properties': 'error',
 
+    // Disallow useless array length check
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-length-check.md
+    'unicorn/no-useless-length-check': 'error',
+
+    // Disallow useless spread
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-spread.md
+    'unicorn/no-useless-spread': 'error',
+
     // Disallow useless `undefined`
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-useless-undefined.md
     'unicorn/no-useless-undefined': 'error',
@@ -250,6 +258,7 @@ module.exports = {
           curr: { current: true },
           db: { database: true },
           dest: { destination: true },
+          def: { defer: true, deferred: true, define: true, definition: true },
           // dev: { development: true },
           dir: { direction: true, directory: true },
           dirs: { directories: true },
