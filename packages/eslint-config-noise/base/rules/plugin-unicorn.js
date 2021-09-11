@@ -114,6 +114,10 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-unused-properties.md
     'unicorn/no-unused-properties': 'error',
 
+    // Forbid useless fallback when spreading in object literals
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-fallback-in-spread.md
+    'unicorn/no-useless-fallback-in-spread': 'error',
+
     // Disallow useless array length check
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-length-check.md
     'unicorn/no-useless-length-check': 'error',

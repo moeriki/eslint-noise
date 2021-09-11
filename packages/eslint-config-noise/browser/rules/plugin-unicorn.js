@@ -36,5 +36,9 @@ module.exports = {
     // Prefer `.querySelector()` over `.getElementById()`, `.querySelectorAll()` over `.getElementsByClassName()` and `.getElementsByTagName()`
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-query-selector.md
     'unicorn/prefer-query-selector': 'error',
+
+    // Prevent calling `EventTarget#removeEventListener()` with the result of an expression
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-invalid-remove-event-listener.md
+    'unicorn/no-invalid-remove-event-listener': 'error',
   },
 };
