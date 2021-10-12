@@ -160,7 +160,10 @@ module.exports = {
 
     // Ensure imports point to files/modules that can be resolved
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
-    'import/no-unresolved': ['error', { caseSensitive: true, commonjs: true }],
+    'import/no-unresolved': [
+      'error',
+      { caseSensitiveStrict: true, commonjs: true },
+    ],
 
     // Ensures that there are no useless path segments
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-useless-path-segments.md
