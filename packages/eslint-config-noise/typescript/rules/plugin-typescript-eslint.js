@@ -223,16 +223,16 @@ module.exports = {
     '@typescript-eslint/no-unnecessary-type-constraint': 'error',
 
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unsafe-assignment.md
-    '@typescript-eslint/no-unsafe-assignment': 'error',
+    '@typescript-eslint/no-unsafe-assignment': 'warn',
 
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unsafe-call.md
-    '@typescript-eslint/no-unsafe-call': 'error',
+    '@typescript-eslint/no-unsafe-call': 'warn',
 
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unsafe-member-access.md
-    '@typescript-eslint/no-unsafe-member-access': 'error',
+    '@typescript-eslint/no-unsafe-member-access': 'warn',
 
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unsafe-return.md
-    '@typescript-eslint/no-unsafe-return': 'error',
+    '@typescript-eslint/no-unsafe-return': 'warn',
 
     '@typescript-eslint/no-var-requires': 'error',
 
