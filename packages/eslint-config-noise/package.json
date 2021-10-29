@@ -18,7 +18,7 @@
     "!**/*.test.js"
   ],
   "peerDependencies": {
-    "eslint": "^7.30"
+    "eslint": "^8.1"
   },
   "dependencies": {
     "confusing-browser-globals": "^1.0.0",
