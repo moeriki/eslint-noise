@@ -145,7 +145,7 @@ module.exports = {
 
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-invalid-void-type.md
     '@typescript-eslint/no-invalid-void-type': [
-      'error',
+      'off',
       { allowAsThisParameter: true },
     ],
 
