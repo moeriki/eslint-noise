@@ -91,7 +91,7 @@ module.exports = {
           '**/protractor.conf.*.js', // protractor config
           '**/wallaby.js', // Wallaby config
           '**/.eslintrc.js', // ESLint config
-          '**/{script,scripts,util,utils}/**',
+          '**/{script,scripts}/**',
           'wallaby.js', // Wallaby config
         ],
         optionalDependencies: false,
