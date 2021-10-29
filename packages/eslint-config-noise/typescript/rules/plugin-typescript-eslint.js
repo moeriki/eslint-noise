@@ -40,6 +40,9 @@ module.exports = {
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/consistent-type-definitions.md
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
 
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/consistent-type-exports.md
+    '@typescript-eslint/consistent-type-exports': 'error',
+
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/dot-notation.md
     'dot-notation': 'off',
     '@typescript-eslint/dot-notation': ['error', { allowKeywords: true }],
