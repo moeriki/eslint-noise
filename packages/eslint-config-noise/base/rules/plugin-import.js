@@ -93,6 +93,7 @@ module.exports = {
           '**/.eslintrc.js', // ESLint config
           '**/{script,scripts}/**',
           'wallaby.js', // Wallaby config
+          '**/*.css.ts', // Vanilla Extract
         ],
         optionalDependencies: false,
       },
