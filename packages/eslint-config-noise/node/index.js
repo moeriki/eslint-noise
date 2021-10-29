@@ -15,7 +15,7 @@ module.exports = {
 
     // Disallow use of synchronous methods
     // https://github.com/mysticatea/eslint-plugin-node/blob/master/docs/rules/no-sync.md
-    'node/no-sync': 'error',
+    'node/no-sync': ['error', { allowAtRootLevel: true }],
 
     // Prefer 'module.exports'
     'node/exports-style': ['error', 'module.exports'],
