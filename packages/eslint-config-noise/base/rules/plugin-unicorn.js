@@ -246,6 +246,9 @@ module.exports = {
     'unicorn/prevent-abbreviations': [
       'error',
       {
+        allowList: {
+          useAttrs: true,
+        },
         extendDefaultReplacements: false,
         replacements: {
           acc: { accumulator: true },
@@ -297,8 +300,8 @@ module.exports = {
           prod: { product: true, production: true },
           prop: { property: true },
           // props: { properties: true },
-          ref: { reference: true },
-          refs: { references: true },
+          // ref: { reference: true },
+          // refs: { references: true },
           rel: { related: true, relationship: true, relative: true },
           // req: { request: true },
           // res: { response: true, result: true },
