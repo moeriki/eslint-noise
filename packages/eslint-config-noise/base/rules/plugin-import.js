@@ -197,6 +197,7 @@ module.exports = {
     'import/ignore': [
       'node_modules',
       '\\.(coffee|scss|css|less|hbs|svg|json)$',
+      '^virtual:',
     ],
     'import/resolver': {
       node: { extensions: [...MODULE_EXTENSIONS, '.json'] },
