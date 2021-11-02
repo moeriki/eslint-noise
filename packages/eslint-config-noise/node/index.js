@@ -11,6 +11,7 @@ module.exports = {
     'node/no-path-concat': 'error',
 
     // This is enabled by plugin-node. We will use a unicorn rule for this
+    'no-process-exit': 'off',
     'node/no-process-exit': 'off',
 
     // Disallow use of synchronous methods
