@@ -182,12 +182,28 @@ You can combine multiple extensions by following the install step per extension 
   "extends": ["noise"],
   "overrides": [
     {
-      "files": ["server/**"],
+      "files": ["**/*.ts"],
+      "extends": ["noise/typescript"]
+    },
+    {
+      "files": ["**/*.{jsx,tsx}"],
+      "extends": ["noise/react"]
+    },
+    {
+      "files": ["**/*.vue"],
+      "extends": ["noise/vue", "noise/vue/ts"]
+    },
+    {
+      "files": ["server/src/**"],
       "extends": ["noise/node", "noise/typescript"]
     },
     {
-      "files": ["web-app/**"],
-      "extends": ["noise/react", "noise/typescript"]
+      "files": ["scripts/**"],
+      "extends": ["noise/node", "noise/node/scripts"]
+    },
+    {
+      "files": ["web-app/src/**"],
+      "extends": ["noise/web-app"]
     }
   ]
 }
