@@ -110,6 +110,30 @@ npm install --save-dev @typescript-eslint/eslint-plugin@^5.2 @typescript-eslint/
 { "extends": ["noise", "noise/typescript"] }
 ```
 
+### Vue
+
+#### Plugins
+
+- [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue)
+
+#### Install
+
+Make sure you have install the Noise base config.
+
+```sh
+npm install --save-dev eslint-config-prettier@^6 eslint-plugin-vue@^4.5
+```
+
+#### Configure
+
+##### Recommended
+
+`.eslintrc`
+
+```json
+{ "extends": ["noise", "noise/vue", "noise/vue/ts"] }
+```
+
 ## Combining multiple extensions
 
 You can combine multiple extensions by following the install step per extension and configure them together.
