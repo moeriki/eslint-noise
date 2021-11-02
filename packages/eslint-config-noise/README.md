@@ -134,6 +134,33 @@ npm install --save-dev eslint-config-prettier@^6 eslint-plugin-vue@^4.5
 { "extends": ["noise", "noise/vue", "noise/vue/ts"] }
 ```
 
+### Web-App
+
+Many web apps are a combination of Node.js and browser directives. This presets
+combines much of the `browser` and `node` configs with some tweaks.
+
+#### Plugins
+
+- [eslint-plugin-node](https://github.com/mysticatea/eslint-plugin-node)
+
+#### Install
+
+Make sure you have install the Noise base config.
+
+```sh
+npm install --save-dev eslint-plugin-node@^11.1
+```
+
+#### Configure
+
+##### Recommended
+
+`.eslintrc`
+
+```json
+{ "extends": ["noise", "noise/web-app"] }
+```
+
 ## Combining multiple extensions
 
 You can combine multiple extensions by following the install step per extension and configure them together.
