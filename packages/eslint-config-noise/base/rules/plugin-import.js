@@ -83,7 +83,7 @@ module.exports = {
           'test-*.{js,jsx}', // repos with multiple top-level test files
           '**/*{.,_}{test,spec}.{js,jsx}', // tests where the extension or filename suffix denotes that it is a test
           '**/jest.setup.js', // jest setup
-          '**/*.config{,.*}.{js,jsm,ts}', // webpack config
+          '**/*.config{,.*}.{cjs,js,mjs,ts}', // webpack config
           '**/gulpfile.js', // gulp config
           '**/gulpfile.*.js', // gulp config
           '**/Gruntfile{,.js}', // grunt config
