@@ -86,6 +86,10 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-console-spaces.md
     'unicorn/no-console-spaces': 'error',
 
+    // Disallow empty files
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-empty-file.md
+    'unicorn/no-empty-file': 'error',
+
     // Enforce the use of Unicode escapes instead of hexadecimal escapes
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-hex-escape.md
     'unicorn/no-hex-escape': 'error',
@@ -172,6 +176,10 @@ module.exports = {
     // Prefer `Date.now()` to get the number of milliseconds since the Unix Epoch
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-date-now.md
     'unicorn/prefer-date-now': 'error',
+
+    // Prefer `export…from` when re-exporting
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-export-from.md
+    'unicorn/prefer-export-from': 'error',
 
     // Prefer `.includes()` over `.indexOf()` when checking for existence or non-existence
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-includes.md
