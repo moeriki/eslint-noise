@@ -215,7 +215,9 @@ module.exports = {
 
     // Prefer the spread operator over Array.from()
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-spread.md
-    'unicorn/prefer-spread': 'error',
+    // Disabled for now until they implement a TS version.
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/issues/347
+    'unicorn/prefer-spread': 'off',
 
     // Prefer `String#replaceAll()` over regex searches with the global flag
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-string-replace-all.md
