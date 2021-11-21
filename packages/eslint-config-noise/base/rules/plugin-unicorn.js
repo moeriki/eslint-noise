@@ -78,6 +78,10 @@ module.exports = {
     'no-array-constructor': 'off',
     'unicorn/no-new-array': 'error',
 
+    // Forbid member access from await expression
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-await-expression-member.md
+    'unicorn/no-await-expression-member': 'error',
+
     // Require Array.isArray() instead of instanceof Array
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-instanceof-array.md
     'unicorn/no-instanceof-array': 'error',
@@ -168,6 +172,10 @@ module.exports = {
     // Prefer `.at()` method for index access and `String#charAt()`
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-at.md
     'unicorn/prefer-at': 'error',
+
+    // Prefer `String#codePointAt(…)` over `String#charCodeAt(…)` and `String.fromCodePoint(…)` over `String.fromCharCode(…)`
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-code-point.md
+    'unicorn/prefer-code-point': 'error',
 
     // Prefer default parameters over reassignment
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-default-parameters.md
