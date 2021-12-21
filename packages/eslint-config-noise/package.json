@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-noise",
-  "version": "0.16.3",
+  "version": "0.17.0",
   "license": "MIT",
   "repository": {
     "url": "https://github.com/Moeriki/eslint-noise"
