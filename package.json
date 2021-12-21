@@ -18,7 +18,7 @@
     "eslint-import-resolver-typescript": "^2.5",
     "eslint-plugin-import": "^2.25",
     "eslint-plugin-node": "^11.1",
-    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-unicorn": "^39.0",
     "jest": "^27.0",
     "lerna": "^4.0",
