@@ -403,7 +403,7 @@ const errors = {
 
   // Disallow assignments that can lead to race conditions due to usage of await or yield
   // https://eslint.org/docs/rules/require-atomic-updates
-  'require-atomic-updates': 'error',
+  'require-atomic-updates': ['error', { allowProperties: true }],
 
   // Disallow comparisons with the value NaN
   'use-isnan': [
@@ -516,6 +516,10 @@ const es6 = {
   // Disallow parseInt() in favor of binary, octal, and hexadecimal literals
   // https://eslint.org/docs/rules/prefer-numeric-literals
   'prefer-numeric-literals': 'error',
+
+  // Prefer `Object.hasOwn()` over `Object.prototype.hasOwnProperty.call()`
+  // https://eslint.org/docs/rules/prefer-object-has-own
+  'prefer-object-has-own': 'error',
 
   // Use rest parameters instead of arguments
   // https://eslint.org/docs/rules/prefer-rest-params
