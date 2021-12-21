@@ -3,6 +3,7 @@
 module.exports = {
   rules: {
     'no-console': 'off',
+    strict: 'off',
     'promise/always-return': 'off',
     'promise/no-nesting': 'off',
     'import/no-anonymous-default-export': 'off',
