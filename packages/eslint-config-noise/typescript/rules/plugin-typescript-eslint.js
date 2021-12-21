@@ -196,6 +196,12 @@ module.exports = {
 
     '@typescript-eslint/no-this-alias': 'error',
 
+    'no-throw-literal': 'off',
+    '@typescript-eslint/no-throw-literal': [
+      'error',
+      { allowThrowingAny: false, allowThrowingUnknown: false },
+    ],
+
     'no-unused-expressions': 'off',
     '@typescript-eslint/no-unused-expressions': 'error',
 
@@ -287,7 +293,7 @@ module.exports = {
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/restrict-plus-operands.md
     '@typescript-eslint/restrict-plus-operands': [
       'error',
-      { checkCompoundAssignments: true },
+      { allowAny: false, checkCompoundAssignments: true },
     ],
 
     // Enforce template literal expressions to be of string type
