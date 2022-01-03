@@ -19,7 +19,7 @@
     "eslint-plugin-import": "^2.25",
     "eslint-plugin-node": "^11.1",
     "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-unicorn": "^39.0",
+    "eslint-plugin-unicorn": "^40.0",
     "jest": "^27.0",
     "lerna": "^4.0",
     "prettier": "^2.3",

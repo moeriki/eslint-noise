@@ -130,6 +130,10 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-length-check.md
     'unicorn/no-useless-length-check': 'error',
 
+    // Disallow returning/yielding `Promise.resolve/reject()` in async functions or promise callbacks
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-promise-resolve-reject.md
+    'unicorn/no-useless-promise-resolve-reject': 'error',
+
     // Disallow useless spread
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/no-useless-spread.md
     'unicorn/no-useless-spread': 'error',
@@ -192,6 +196,10 @@ module.exports = {
     // Prefer `.includes()` over `.indexOf()` when checking for existence or non-existence
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-includes.md
     'unicorn/prefer-includes': 'error',
+
+    // Prefer reading a JSON file as a buffer
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-json-parse-buffer.md
+    'unicorn/prefer-json-parse-buffer': 'error',
 
     // Enforce the use of `Math.trunc` instead of bitwise operators
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-math-trunc.md
@@ -339,6 +347,10 @@ module.exports = {
         },
       },
     ],
+
+    // Enforce consistent relative URL style
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/relative-url-style.md
+    'unicorn/relative-url-style': ['error', 'always'],
 
     // Enforce using the separator argument with `Array#join()`
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/require-array-join-separator.md
