@@ -197,10 +197,6 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-includes.md
     'unicorn/prefer-includes': 'error',
 
-    // Prefer reading a JSON file as a buffer
-    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-json-parse-buffer.md
-    'unicorn/prefer-json-parse-buffer': 'error',
-
     // Enforce the use of `Math.trunc` instead of bitwise operators
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-math-trunc.md
     'unicorn/prefer-math-trunc': 'error',
