@@ -2,10 +2,8 @@
 
 module.exports = {
   parserOptions: {
+    extraFileExtensions: ['.vue'],
     parser: '@typescript-eslint/parser',
-    parserOptions: {
-      extraFileExtensions: ['.vue'],
-    },
   },
   rules: {
     'no-undef': 'off',
