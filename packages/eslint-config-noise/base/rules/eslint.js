@@ -304,7 +304,7 @@ const errors = {
   'no-cond-assign': ['error', 'always'],
 
   // Disallow use of console
-  'no-console': 'warn',
+  'no-console': ['warn', { allow: ['error', 'warn'] }],
 
   // Disallow use of constant expressions in conditions
   'no-constant-condition': 'warn',
