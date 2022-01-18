@@ -51,7 +51,8 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': [
       'error',
       {
-        allowExpressions: true,
+        allowConciseArrowFunctionExpressionsStartingWithVoid: true,
+        allowDirectConstAssertionInArrowFunctions: true,
         allowHigherOrderFunctions: true,
         allowTypedFunctionExpressions: true,
       },
