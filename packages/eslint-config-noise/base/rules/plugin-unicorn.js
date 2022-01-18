@@ -269,6 +269,7 @@ module.exports = {
       {
         allowList: {
           useAttrs: true,
+          useCssVars: true,
         },
         replacements: {
           ctx: false,
