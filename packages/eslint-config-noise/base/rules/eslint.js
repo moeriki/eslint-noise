@@ -37,7 +37,7 @@ const bestPractices = {
 
   // Enforce a maximum number of classes per file
   // https://eslint.org/docs/rules/max-classes-per-file
-  'max-classes-per-file': ['error', 1],
+  'max-classes-per-file': 'off',
 
   // Disallow the use of alert, confirm, and prompt
   'no-alert': 'warn',

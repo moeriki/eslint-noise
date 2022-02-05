@@ -5,7 +5,7 @@ module.exports = {
   rules: {
     // Return inside each then() to create readable and reusable Promise chains
     // https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/always-return.md
-    'promise/always-return': 'error',
+    'promise/always-return': 'off',
 
     // Enforces the use of `catch()` on un-returned promises.
     // https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/catch-or-return.md
