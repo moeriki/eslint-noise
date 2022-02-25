@@ -74,26 +74,16 @@ module.exports = {
       'error',
       {
         devDependencies: [
-          'test/**', // tape, common npm pattern
-          'tests/**', // also common npm pattern
-          'spec/**', // mocha, rspec-like pattern
-          '**/__tests__/**', // jest pattern
-          '**/__mocks__/**', // jest pattern
-          'test.{js,jsx}', // repos with a single test file
-          'test-*.{js,jsx}', // repos with multiple top-level test files
-          '**/*{.,_}{test,spec}.{js,jsx}', // tests where the extension or filename suffix denotes that it is a test
-          '**/jest.setup.js', // jest setup
-          '**/*.config{,.*}.{cjs,js,mjs,ts}', // webpack config
-          '**/gulpfile.js', // gulp config
-          '**/gulpfile.*.js', // gulp config
-          '**/Gruntfile{,.js}', // grunt config
-          '**/protractor.conf.js', // protractor config
-          '**/protractor.conf.*.js', // protractor config
-          '**/wallaby.js', // Wallaby config
-          '**/.eslintrc.js', // ESLint config
-          '**/{script,scripts}/**',
-          'wallaby.js', // Wallaby config
-          '**/*.css.ts', // Vanilla Extract
+          // Root files
+          '*.{cjs,js,mjs,ts}',
+          // Single test files
+          'test.{cjs,js,jsx,mjs,ts,tsx}',
+          // Test suffix files
+          '**/*.{test,spec}{,s}.{cjs,js,jsx,mjs,ts,tsx}',
+          // Test / script directories
+          '**/{mock,script,spec,test}{,s}/**',
+          // Vanilla Extract
+          '**/*.css.ts',
         ],
         optionalDependencies: false,
       },
