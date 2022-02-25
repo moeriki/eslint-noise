@@ -1,7 +1,5 @@
 'use strict';
 
-const MODULE_EXTENSIONS = ['.js', '.mjs'];
-
 module.exports = {
   plugins: ['import'],
   rules: {
@@ -193,14 +191,11 @@ module.exports = {
   },
   settings: {
     'import/core-modules': [],
-    'import/extensions': MODULE_EXTENSIONS,
+    'import/extensions': ['.cjs', '.js', '.mjs'],
     'import/ignore': [
       'node_modules',
       '\\.(coffee|scss|css|less|hbs|svg|json)$',
       '^virtual:',
     ],
-    'import/resolver': {
-      node: { extensions: [...MODULE_EXTENSIONS, '.json'] },
-    },
   },
 };
