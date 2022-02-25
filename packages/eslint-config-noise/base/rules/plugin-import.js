@@ -148,7 +148,11 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
     'import/no-unresolved': [
       'error',
-      { caseSensitiveStrict: true, commonjs: true },
+      {
+        caseSensitiveStrict: true,
+        commonjs: true,
+        ignore: ['^virtual:'],
+      },
     ],
 
     // Ensures that there are no useless path segments
