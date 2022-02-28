@@ -74,6 +74,8 @@ module.exports = {
         devDependencies: [
           // Root files
           '*.{cjs,js,mjs,ts}',
+          '**/*.config.{cjs,js,mjs,ts}',
+          '**/.*rc.{cjs,js,mjs,ts}',
           // Single test files
           'test.{cjs,js,jsx,mjs,ts,tsx}',
           // Test suffix files
