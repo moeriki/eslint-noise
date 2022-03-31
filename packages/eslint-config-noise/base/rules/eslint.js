@@ -621,7 +621,7 @@ const style = {
   'no-underscore-dangle': [
     'error',
     {
-      allow: ['_id', '_', '__'],
+      allow: ['_id', '__typename', '_', '__'],
       allowAfterSuper: true,
       allowAfterThis: true,
       allowFunctionParams: true,
