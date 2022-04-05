@@ -191,10 +191,13 @@ module.exports = {
       { ignoreDeclarationMerge: true },
     ],
 
+    // Disallow variable declarations from shadowing variables declared in the outer scope.
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-shadow.md
     'no-shadow': 'off',
-    '@typescript-eslint/no-shadow': ['error', { ignoreTypeValueShadow: true }],
+    '@typescript-eslint/no-shadow': ['error', { ignoreOnInitialization: true }],
 
+    // Disallow aliasing `this`.
+    // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/no-this-alias.md
     '@typescript-eslint/no-this-alias': 'error',
 
     'no-throw-literal': 'off',
