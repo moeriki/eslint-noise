@@ -43,6 +43,10 @@ module.exports = {
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/consistent-type-exports.md
     '@typescript-eslint/consistent-type-exports': 'error',
 
+    // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/default-param-last.md
+    'default-param-last': 'off',
+    '@typescript-eslint/default-param-last': 'error',
+
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/dot-notation.md
     'dot-notation': 'off',
     '@typescript-eslint/dot-notation': ['error', { allowKeywords: true }],
