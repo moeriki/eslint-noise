@@ -162,6 +162,18 @@ module.exports = {
     'no-loss-of-precision': 'off',
     '@typescript-eslint/no-loss-of-precision': 'error',
 
+    // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/no-magic-numbers.md
+    'no-magic-numbers': 'off',
+    '@typescript-eslint/no-magic-numbers': [
+      'error',
+      {
+        ignoreEnums: true,
+        ignoreNumericLiteralTypes: true,
+        ignoreReadonlyClassProperties: true,
+        ignoreTypeIndexes: true,
+      },
+    ],
+
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-misused-promises.md
     '@typescript-eslint/no-misused-promises': [
       'error',

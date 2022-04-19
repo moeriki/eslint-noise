@@ -97,7 +97,7 @@ npm install --save-dev eslint-plugin-jsx-a11y@^6.4 eslint-plugin-react@^7.23 esl
 Make sure you have install the Noise base config.
 
 ```sh
-npm install --save-dev @typescript-eslint/eslint-plugin@^5.18 @typescript-eslint/parser@^5.18 eslint-import-resolver-typescript@^2.5
+npm install --save-dev @typescript-eslint/eslint-plugin@^5.20 @typescript-eslint/parser@^5.20 eslint-import-resolver-typescript@^2.5
 ```
 
 #### Configure
