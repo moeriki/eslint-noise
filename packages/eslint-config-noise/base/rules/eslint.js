@@ -111,7 +111,6 @@ const bestPractices = {
       detectObjects: false,
       enforceConst: true,
       ignore: [-1, 0, 1],
-      ignoreArrayIndexes: true,
       ignoreDefaultValues: true,
     },
   ],
