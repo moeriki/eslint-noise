@@ -7,5 +7,6 @@ module.exports = {
   },
   rules: {
     'no-undef': 'off',
+    'vue/block-lang': ['error', { script: { lang: 'ts' } }],
   },
 };
