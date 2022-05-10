@@ -5,5 +5,19 @@ module.exports = {
   rules: {
     camelcase: 'off',
     'import/no-anonymous-default-export': 'off',
+    'vue/component-name-in-template-casing': [
+      'error',
+      'PascalCase',
+      {
+        registeredComponentsOnly: false,
+      },
+    ],
+    'vue/html-self-closing': [
+      'error',
+      {
+        html: { void: 'always' },
+      },
+    ],
+    'vue/multi-word-component-names': 'off',
   },
 };
