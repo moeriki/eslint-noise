@@ -9,7 +9,7 @@ module.exports = {
       'error',
       'PascalCase',
       {
-        ignore: ['i18n-t'],
+        ignores: ['i18n-t'],
         registeredComponentsOnly: false,
       },
     ],
