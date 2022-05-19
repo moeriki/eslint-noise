@@ -120,9 +120,9 @@ module.exports = {
       'error',
       {
         allow: [
+          'decoratedFunctions',
           'private-constructors',
           'protected-constructors',
-          'decoratedFunctions',
         ],
       },
     ],
