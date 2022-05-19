@@ -20,5 +20,6 @@ module.exports = {
       },
     ],
     'vue/multi-word-component-names': 'off',
+    'vue/padding-line-between-blocks': 'error',
   },
 };
