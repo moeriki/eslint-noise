@@ -121,7 +121,7 @@ npm install --save-dev @typescript-eslint/eslint-plugin@^5.20 @typescript-eslint
 Make sure you have install the Noise base config.
 
 ```sh
-npm install --save-dev eslint-config-prettier@^6 eslint-plugin-vue@^4.5
+npm install --save-dev eslint-config-prettier@^6 eslint-plugin-vue@^9.0
 ```
 
 #### Configure

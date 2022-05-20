@@ -13,6 +13,7 @@ module.exports = {
         registeredComponentsOnly: false,
       },
     ],
+    'vue/custom-event-name-casing': 'error',
     'vue/html-self-closing': [
       'error',
       {
