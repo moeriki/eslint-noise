@@ -18,5 +18,7 @@ module.exports = {
     'consistent-return': 'off',
     'no-unsafe-optional-chaining': 'off',
     'valid-jsdoc': 'off',
+
+    'import/no-unresolved': 'off',
   },
 };
