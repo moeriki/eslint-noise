@@ -2,7 +2,16 @@
 
 module.exports = {
   settings: {
-    'import/extensions': ['.cjs', '.js', '.jsx', '.mjs', '.ts', '.tsx'],
+    'import/extensions': [
+      '.cjs',
+      '.cts',
+      '.js',
+      '.jsx',
+      '.mjs',
+      '.mts',
+      '.ts',
+      '.tsx',
+    ],
     'import/parsers': {
       '@typescript-eslint/parser': ['.ts', '.tsx'],
     },
