@@ -13,7 +13,7 @@ An opinionated [ESLint](https://github.com/eslint/eslint) config. There are many
 ### Install
 
 ```sh
-npm install --save-dev eslint@^8.8 eslint-config-noise eslint-plugin-import@^2.27 eslint-plugin-promise@^6.0 eslint-plugin-unicorn@^42.0
+npm install --save-dev eslint@^8.8 eslint-config-noise eslint-plugin-import@^2.27 eslint-plugin-promise@^6.0 eslint-plugin-unicorn@^43.0
 ```
 
 ### Configure

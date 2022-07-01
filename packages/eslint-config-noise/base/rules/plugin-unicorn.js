@@ -189,6 +189,10 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-date-now.md
     'unicorn/prefer-date-now': 'error',
 
+    // Prefer `EventTarget` over `EventEmitter`
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-event-target.md
+    'unicorn/prefer-event-target': 'error',
+
     // Prefer `export…from` when re-exporting
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-export-from.md
     'unicorn/prefer-export-from': 'error',
@@ -196,6 +200,10 @@ module.exports = {
     // Prefer `.includes()` over `.indexOf()` when checking for existence or non-existence
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-includes.md
     'unicorn/prefer-includes': 'error',
+
+    // Prefer using a logical operator over a ternary
+    // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-logical-operator-over-ternary.md
+    'unicorn/prefer-logical-operator-over-ternary': 'error',
 
     // Enforce the use of `Math.trunc` instead of bitwise operators
     // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/prefer-math-trunc.md
